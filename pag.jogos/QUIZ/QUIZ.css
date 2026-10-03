@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background:#F8F5F0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.quiz-box{
+    width:700px;
+    max-width:90%;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.15);
+}
+
+header{
+    background:#2E7D32;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.quiz-box {
+    width: 700px;
+    max-width: 90%;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    position: relative;
+}
+
+.botao-voltar {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.botao-voltar:hover {
+    transform: scale(1.1);
+}
+
+.introducao{
+    text-align:center;
+    padding:25px;
+    font-size:18px;
+    color:#444;
+}
+
+.pergunta-box{
+    width:85%;
+    margin:0 auto;
+    background:#f1f1f1;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+}
+
+.pergunta-box h2{
+    color:#333;
+    font-size:24px;
+}
+
+.opcoes{
+    width:85%;
+    margin:25px auto;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.opcao{
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    background:#81C784;
+    font-size:17px;
+    cursor:pointer;
+    transition: all 0.3s ease;
+}
+
+.opcao:hover{
+    transform:scale(1.02);
+    background:#66BB6A;
+}
+
+.acoes{
+    text-align:center;
+    padding-bottom:30px;
+}
+
+#proximo{
+    background:#D81B60;
+    color:white;
+    border:none;
+    padding:12px 35px;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+#reiniciar{
+    margin-top:20px;
+    background:#D81B60;
+    color:white;
+    border:none;
+    padding:12px 35px;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+#reiniciar:hover{
+    background:#ad1457;
+}
+
+.explicacao{
+    width:85%;
+    margin:15px auto;
+    padding:15px;
+    background:#E8F5E9;
+    border-left:5px solid #2E7D32;
+    border-radius:10px;
+    color:#333;
+    font-size:16px;
+    line-height:1.5;
+    display:none;
+}

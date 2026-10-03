@@ -1,0 +1,749 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-dark: #111b11;
+    --bg-card: #1c2b1c;
+    --bg-card-img: #c8c8c8;
+    --green-bright: #4caf50;
+    --green-dim: #2e7d32;
+    --green-accent: #66bb6a;
+    --green-border: #388e3c;
+    --text-primary: #e8f5e9;
+    --text-muted: #a5d6a7;
+    --text-dark: #1b2b1b;
+    --pixel-font: 'Press Start 2P', monospace;
+    --vt-font: 'VT323', monospace;
+    --radius: 2px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    font-family: var(--vt-font);
+    font-size: 18px;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* =========================
+   HEADER / NAVBAR
+   ========================= */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #0d150d;
+    border-bottom: 2px solid var(--green-dim);
+    padding: 20px 8%;
+}
+
+.nav-inner {
+    max-width: none;
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* LOGO */
+.nav-logo {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    display: block;
+    flex-shrink: 0;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.nav-inner > a:hover .nav-logo {
+    transform: scale(1.08);
+    filter: drop-shadow(4px 4px 0 var(--green-bright));
+}
+/* MENU */
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap:30px;
+    margin: 0;
+    padding: 0;
+    transition: 0.2s;
+}
+
+.nav-links a {
+    font-family: var(--pixel-font);
+    font-size: 9px;
+    color: var(--text-muted);
+    
+    border-radius: 6px;
+    transition: color 0.2s, background 0.2s;
+}
+
+.nav-links a:hover {
+    color: var(--green-accent);
+    background: rgba(255, 255, 255, 0.06);
+}
+
+nav a.ativo {
+    color: #09c256;
+    font-weight: 800;
+}
+
+/* BOTÃO MOBILE */
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--text-primary);
+    font-size: 22px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+
+/* =========================
+   HERO
+   ========================= */
+
+.hero {
+    padding: 56px 24px 48px;
+}
+
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero-text {
+    flex: 1 1 340px;
+}
+
+.hero-title {
+    font-family: var(--pixel-font);
+    font-size: clamp(16px, 3vw, 24px);
+    line-height: 1.7;
+    color: var(--text-primary);
+    margin-bottom: 20px;
+}
+
+.hero-title .highlight {
+    color: var(--green-bright);
+    position: relative;
+    display: inline-block;
+}
+
+.hero-title .highlight::after {
+    content: '';
+    display: block;
+    height: 3px;
+    background: var(--green-bright);
+    margin-top: 2px;
+    image-rendering: pixelated;
+}
+
+.hero-desc {
+    font-size: 18px;
+    color: var(--text-muted);
+    max-width: 300px;
+    margin-bottom: 28px;
+    line-height: 1.5;
+}
+
+.hero-cta {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.btn-primary {
+    font-family: var(--pixel-font);
+    font-size: 7px;
+    background: var(--green-bright);
+    color: var(--text-dark);
+    padding: 12px 20px;
+    border: 2px solid var(--green-accent);
+    cursor: pointer;
+    transition: background 0.15s, transform 0.1s;
+    image-rendering: pixelated;
+}
+
+.btn-primary:hover {
+    background: var(--green-accent);
+    transform: translateY(-2px);
+}
+
+.btn-outline {
+    font-family: var(--pixel-font);
+    font-size: 7px;
+    background: transparent;
+    color: var(--green-bright);
+    padding: 12px 20px;
+    border: 2px solid var(--green-bright);
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s, transform 0.1s;
+}
+
+.btn-outline:hover {
+    background: var(--green-bright);
+    color: var(--text-dark);
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   IMAGEM DO HERO
+   ========================= */
+
+.hero-image {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 400px;
+    border: 3px solid var(--green-dim);
+    box-shadow: 6px 6px 0 var(--green-border);
+    image-rendering: pixelated;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    image-rendering: pixelated;
+    display: block;
+}
+
+
+/* =========================
+   DIVISOR PIXEL
+   ========================= */
+
+.pixel-divider {
+    width: 100%;
+    height: 28px;
+    background: #1a2e1a;
+    position: relative;
+    overflow: hidden;
+}
+
+.pixel-strip {
+    width: 100%;
+    height: 100%;
+    background-image: repeating-linear-gradient(
+        90deg,
+        var(--green-dim) 0px,
+        var(--green-dim) 8px,
+        #0d1a0d 8px,
+        #0d1a0d 16px
+    );
+    opacity: 0.6;
+}
+
+
+/* =========================
+   BIBLIOTECA
+   ========================= */
+
+.biblioteca {
+    padding: 48px 24px 64px;
+}
+
+.section-inner {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-family: var(--pixel-font);
+    font-size: clamp(11px, 2vw, 15px);
+    color: var(--text-primary);
+    margin-bottom: 24px;
+}
+
+
+/* =========================
+   FILTROS
+   ========================= */
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+
+.filter-btn {
+    font-family: var(--pixel-font);
+    font-size: 7px;
+    background: transparent;
+    color: var(--text-primary);
+    border: 2px solid var(--green-dim);
+    padding: 8px 14px;
+    cursor: pointer;
+    transition:
+        background 0.15s,
+        color 0.15s,
+        border-color 0.15s,
+        transform 0.1s;
+}
+
+.filter-btn:hover {
+    border-color: var(--green-bright);
+    color: var(--green-bright);
+    transform: translateY(-1px);
+}
+
+.filter-btn.active {
+    background: var(--green-bright);
+    color: var(--text-dark);
+    border-color: var(--green-bright);
+}
+
+
+/* =========================
+   GRID DOS JOGOS
+   ========================= */
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+/* =========================
+   CARD
+   ========================= */
+
+.game-card {
+    background: var(--bg-card);
+    border: 2px solid var(--green-border);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition:
+        transform 0.15s,
+        box-shadow 0.15s,
+        border-color 0.15s;
+    position: relative;
+    overflow: hidden;
+}
+
+.game-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 4px 4px 0 var(--green-dim);
+    border-color: var(--green-bright);
+}
+
+.game-card.hidden {
+    display: none;
+}
+
+
+/* =========================
+   IMAGEM DO CARD
+   ========================= */
+
+.card-img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: var(--bg-card-img);
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    image-rendering: pixelated;
+    filter: grayscale(30%);
+    transition: filter 0.2s, transform 0.2s;
+}
+
+.game-card:hover .card-img img {
+    filter: grayscale(0%);
+    transform: scale(1.04);
+}
+
+.card-img-placeholder {
+    width: 100%;
+    height: 100%;
+    background: var(--bg-card-img);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-family: var(--pixel-font);
+    font-size: 7px;
+}
+
+
+/* =========================
+   CORPO DO CARD
+   ========================= */
+
+.card-body {
+    padding: 14px 14px 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.card-name {
+    font-family: var(--pixel-font);
+    font-size: 8px;
+    color: var(--text-primary);
+    line-height: 1.5;
+}
+
+.card-desc {
+    font-size: 16px;
+    color: var(--text-muted);
+    line-height: 1.4;
+}
+
+
+/* =========================
+   RODAPÉ DO CARD
+   ========================= */
+
+.card-footer {
+    padding: 8px 14px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #1e3a1e;
+    gap: 10px;
+}
+
+.card-level {
+    font-family: var(--pixel-font);
+    font-size: 6px;
+    color: var(--green-accent);
+}
+
+
+/* =========================
+   STATUS
+   ========================= */
+
+.game-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+}
+
+.status-label {
+    font-family: var(--pixel-font);
+    font-size: 8px;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.status-select {
+    appearance: none;
+    -webkit-appearance: none;
+    font-family: var(--pixel-font);
+    font-size: 8px;
+    padding: 7px 24px 7px 8px;
+    background: var(--bg-dark);
+    color: var(--text);
+    border: 2px solid var(--border-color);
+    cursor: pointer;
+    outline: none;
+    image-rendering: pixelated;
+
+    background-image:
+        linear-gradient(
+            45deg,
+            transparent 50%,
+            currentColor 50%
+        ),
+        linear-gradient(
+            135deg,
+            currentColor 50%,
+            transparent 50%
+        );
+
+    background-position:
+        calc(100% - 10px) 50%,
+        calc(100% - 6px) 50%;
+
+    background-size:
+        4px 4px,
+        4px 4px;
+
+    background-repeat: no-repeat;
+}
+
+.status-select:hover {
+    border-color: var(--accent);
+}
+
+.status-select:focus {
+    border-color: var(--accent);
+}
+
+
+/* =========================
+   BADGES
+   ========================= */
+
+.card-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-family: var(--pixel-font);
+    font-size: 5px;
+    padding: 3px 6px;
+    color: var(--text-dark);
+}
+
+.badge-jogado {
+    background: var(--green-bright);
+}
+
+.badge-novo {
+    background: #ff9800;
+}
+
+.badge-continuar {
+    background: #2196f3;
+    color: #fff;
+}
+
+
+@media (max-width: 640px) {
+
+    .hero-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-desc {
+        max-width: 100%;
+        margin: 0 auto 24px;
+    }
+
+    .hero-cta {
+        justify-content: center;
+    }
+
+    .hero-image {
+        max-width: 100%;
+    }
+
+    .games-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* HEADER MOBILE */
+    .navbar {
+        padding: 0 15px;
+    }
+
+    .nav-inner {
+        height: 58px;
+        padding: 0 10px;
+    }
+
+    .nav-logo {
+        width: 95px;
+        height: 32px;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 58px;
+        left: 0;
+        right: 0;
+        background: #0d150d;
+        border-bottom: 2px solid var(--green-dim);
+        padding: 16px 24px;
+        gap: 16px;
+        z-index: 99;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .footer-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+/* =========================
+   EFEITO PIXEL NA TELA
+   ========================= */
+
+body::after {
+    content: '';
+    pointer-events: none;
+    position: fixed;
+    inset: 0;
+
+    background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0,0,0,0.06) 2px,
+        rgba(0,0,0,0.06) 4px
+    );
+
+    z-index: 9999;
+}
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    background: #0d150d;
+    border-top: 2px solid var(--green-dim);
+    padding: 30px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* LOGO */
+.footer-logo img {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+/* TÍTULOS */
+footer h3 {
+    font-family: var(--pixel-font);
+    color: var(--text-primary);
+    margin-bottom: 20px;
+}
+
+/* MEMBROS */
+.membro {
+    margin: 8px 0;
+}
+
+.membro a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-muted);
+    text-decoration: none;
+}
+
+.membro a:hover {
+    color: var(--green-accent);
+}
+
+.github-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    transition: 0.2s;
+}
+
+.github-icon:hover {
+    fill: var(--green-accent);
+    transform: scale(1.15);
+}
+
+/* CONTATO */
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato h3 {
+    margin-bottom: 10px;
+}
+
+.email-box,
+.site-box {
+    width: 280px;
+    background: white;
+    color: #333;
+    padding: 8px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.site-box a {
+    color: #333;
+    text-decoration: none;
+}
+
+.site-box a:hover {
+    color: var(--green-dim);
+}
+
+#botao {
+    width: 165px;
+    padding: 7px;
+    border: none;
+    border-radius: 20px;
+    background: var(--green-dim);
+    color: white;
+    font-family: var(--pixel-font);
+    font-size: 8px;
+    cursor: pointer;
+}
+
+#botao:hover {
+    background: var(--green-accent);
+}
+
+/* FOOTER MOBILE */
+@media (max-width: 640px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contato {
+        width: 100%;
+    }
+}

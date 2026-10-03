@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoQuiz</title>
+    <link rel="stylesheet" href="QUIZ.css">
+</head>
+<body>
+
+    <div class="quiz-box">
+
+        <button class="botao-voltar" onclick="history.back()">←</button>
+
+        <header>
+            <h1>🌱 EcoQuiz</h1>
+        </header>
+
+        <div class="introducao">
+            <p>Teste seus conhecimentos!</p>
+        </div>
+
+        <div class="pergunta-box">
+            <h2 id="pergunta">
+                
+            </h2>
+        </div>
+
+        <div class="opcoes">
+            <button class="opcao"></button>
+            <button class="opcao"></button>
+            <button class="opcao"></button>
+            <button class="opcao"></button>
+        </div>
+        
+        <div id="explicacao" class="explicacao"></div>
+
+        <div class="acoes">
+            <button id="proximo">Próxima</button>
+        </div>
+
+    </div>
+    <script src="QUIZ.js"></script>
+
+</body>
+</html>

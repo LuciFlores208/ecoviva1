@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogos</title>
+  <link rel="stylesheet" href="pJogos.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323:wght@400&display=swap" rel="stylesheet"/>
+</head>
+  <body>
+
+
+  <!-- ================= NAV ================= -->
+
+  <nav class="navbar">
+
+    <div class="nav-inner">
+
+      <a href="../Home/index.html">
+        <img
+          src="../Eco1/ecoviva_pixel_color_whitebg_1.png"
+          alt="Logo ECOPIXEL"
+          class="nav-logo"
+        >
+      </a>
+
+      <ul class="nav-links">
+
+        <li>
+          <a href="../Home/index.html">
+            Início
+          </a>
+        </li>
+
+        <li>
+          <a href="../pag.mapa/pMapa.html">
+            Mapa
+          </a>
+        </li>
+
+        <li>
+          <a href="../pag.jogos/pJogos.html" class="ativo">
+            Jogos
+          </a>
+        </li>
+
+        <li>
+          <a href="../pag.calculadora/index.html">
+            Calculadora
+          </a>
+        </li>
+
+        <li>
+          <a href="../pag.biblioteca/pBiblioteca.html">
+            Biblioteca
+          </a>
+        </li>
+
+        <li>
+          <a href="../pag.IA/frontend/index.html">
+            Copy
+          </a>
+        </li>
+
+      </ul>
+
+      <button
+        class="nav-toggle"
+        aria-label="Menu"
+      >
+        &#9776;
+      </button>
+
+    </div>
+
+  </nav>
+
+
+  <!-- ================= HERO ================= -->
+
+  <section
+    class="hero"
+    id="inicio"
+  >
+
+    <div class="hero-inner">
+
+      <div class="hero-text">
+
+        <h1 class="hero-title">
+
+          Aprenda a<br/>
+
+          <span class="highlight">
+            salvar
+          </span>
+
+          o<br/>
+
+          planeta
+
+        </h1>
+
+        <p class="hero-desc">
+
+          Uma biblioteca de jogos pixel art dedicada
+          ao ensino de sustentabilidade, ecologia
+          e consciência ambiental para todas as idades.
+
+        </p>
+
+        <div class="hero-cta">
+          
+          <a href="#biblioteca" class="btn-primary">
+            Jogar agora
+        </a>
+
+          <button class="btn-primary" onclick="window.location.href='./QUIZ/QUIZ.html'">
+            Ver Quiz
+          </button>
+        </div>
+
+      </div>
+
+
+      <div class="hero-image">
+
+        <img
+          src="imgs/controle.jpg"
+          alt="Pixel art platformer game"
+        />
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= PIXEL DIVIDER ================= -->
+
+  <div
+    class="pixel-divider"
+    aria-hidden="true"
+  >
+
+    <div class="pixel-strip"></div>
+
+  </div>
+
+
+  <!-- ================= BIBLIOTECA ================= -->
+
+  <section
+    class="biblioteca"
+    id="biblioteca"
+  >
+
+    <div class="section-inner">
+
+      <h2 class="section-title">
+        Biblioteca de jogos
+      </h2>
+
+
+      <div class="filters">
+
+        <button
+          class="filter-btn active"
+          data-filter="todos"
+        >
+          Todos
+        </button>
+
+        <button
+          class="filter-btn"
+          data-filter="jogados"
+        >
+          Jogados
+        </button>
+
+        <button
+          class="filter-btn"
+          data-filter="nao-jogados"
+        >
+          Não Jogados
+        </button>
+
+        <button
+          class="filter-btn"
+          data-filter="continuar"
+        >
+          Continuar
+        </button>
+
+      </div>
+
+
+      <div
+        class="games-grid"
+        id="games-grid"
+      >
+        <!-- cards inseridos pelo JavaScript -->
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <div class="footer-logo">
+
+      <img
+        src="../Eco1/ecoviva_pixel_color_whitebg_2.png"
+        alt="Logo EcoViva"
+      >
+
+    </div>
+
+
+    <div class="membros">
+
+      <h3>
+        Membros
+      </h3>
+
+
+      <!-- LUCIANA FLORES -->
+
+      <div class="membro">
+
+        <a
+          href="https://github.com/LuciFlores208"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
+          <svg
+            class="github-icon"
+            viewBox="0 0 24 24"
+            aria-label="GitHub"
+          >
+
+            <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.92.58.11.79-.25.79-.56v-2.17c-3.2-.7-3.88-1.36-3.88-1.36-.53-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.06 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.77.11 3.06.73.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.41-5.25 5.69.41.36.78 1.08.78 2.18v3.23c0 .31.21.68.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
+
+          </svg>
+
+          <span>
+            Luciana Flores
+          </span>
+
+        </a>
+
+      </div>
+
+
+      <!-- CLARA ELISA -->
+
+      <div class="membro">
+
+        <a
+          href="https://github.com/wwcllara-dev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
+          <svg
+            class="github-icon"
+            viewBox="0 0 24 24"
+            aria-label="GitHub"
+          >
+
+            <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.92.58.11.79-.25.79-.56v-2.17c0-3.2-.7-3.88-1.36-3.88-1.36-.53-1.68-1.28-1.68-1.28-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.06 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.77.11 3.06.73.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.41-5.25 5.69.41.36.78 1.08.78 2.18v3.23c0 .31.21.68.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
+
+          </svg>
+
+          <span>
+            Clara Elisa
+          </span>
+
+        </a>
+
+      </div>
+
+
+      <!-- GUILHERME SILVA -->
+
+      <div class="membro">
+
+        <a
+          href="https://github.com/guirodrigues26"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
+          <svg
+            class="github-icon"
+            viewBox="0 0 24 24"
+            aria-label="GitHub"
+          >
+
+            <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.92.58.11.79-.25.79-.56v-2.17c-3.2-.7-3.88-1.36-3.88-1.36-.53-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.06 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.77.11 3.06.73.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.41-5.25 5.69.41.36.78 1.08.78 2.18v3.23c0 .31.21.68.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
+
+          </svg>
+
+          <span>
+            Guilherme Silva
+          </span>
+
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- CONTATO -->
+
+    <div class="contato">
+
+      <h3>
+        Contate-nos:
+      </h3>
+
+
+      <div class="email-box">
+
+        <span id="email">
+          ecoviva.world@gmail.com
+        </span>
+
+      </div>
+
+
+      <div class="site-box">
+
+        <a
+          href="https://github.com/LuciFlores208/EcoViva.git"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub EcoViva
+        </a>
+
+      </div>
+
+
+      <button
+        id="botao"
+        type="button"
+        onclick="copiarEmail()"
+      >
+        Copiar e-mail
+      </button>
+
+    </div>
+
+  </footer>
+
+
+  <!-- JAVASCRIPT -->
+
+  <script
+    type="module"
+    src="pJogos.js"
+  ></script>
+
+</body>
+
+</html>

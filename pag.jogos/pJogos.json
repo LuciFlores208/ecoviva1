@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "name": "Jeru",
+    "desc": "Ajude Jeru a chegar no fim da fase usando simetria!",
+    "level": "Nível 1",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://www.ludoeducativo.com.br/pt/play/jeru?tag=todos-meio-ambiente",
+    "target": "_blank"
+  },
+  {
+    "id": 2,
+    "name": "EcoCasa Água",
+    "desc": "Aprenda métodos eficientes de economia de água com este jogo!",
+    "level": "Nível 1",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://www.ludoeducativo.com.br/pt/play/ecocasa-remake?tag=todos-meio-ambiente#google_vignette",
+    "target": "_blank"
+  },
+  {
+    "id": 3,
+    "name": "Feijo Transito",
+    "desc": "Ajude a melhorar o trânsito de Feijoville e torne os feijovillenses pessoas mais felizes!",
+    "level": "Nível 1",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://www.ludoeducativo.com.br/pt/play/feijotransito?tag=todos-meio-ambiente",
+    "target": "_blank"
+  },
+  {
+    "id": 4,
+    "name": "Contra Corona",
+    "desc": "Ajude o achatamento da curva!",
+    "level": "Nível 1",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://www.ludoeducativo.com.br/pt/play/contra-corona?tag=todos-meio-ambiente",
+    "target": "_blank"
+  },
+  {
+    "id": 5,
+    "name": "Contra a Dengue no mundo digital",
+    "desc": "Sophia agora embarca em uma aventura no mundo digital. Encontre os irmãos Rômulo e Renata e, juntos, combatam a dengue!",
+    "level": "Nível 2",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://www.ludoeducativo.com.br/pt/play/contra-dengue-3?tag=todos-meio-ambiente",
+    "target": "_blank"
+  },
+  {
+    "id": 6,
+    "name": "O dever me chama",
+    "desc": "Ajude nossa heroína a limpar o planeta, começando em sua casa!",
+    "level": "Nível 2",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://www.ludoeducativo.com.br/pt/play/o-dever-me-chama?tag=todos-meio-ambiente",
+    "target": "_blank"
+  },
+  {
+    "id": 7,
+    "name": "Elementar",
+    "desc": "Venha descobrir os elementos e seus grupos!",
+    "level": "Nível 2",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://www.ludoeducativo.com.br/pt/play/elementar?tag=todos-meio-ambiente",
+    "target": "_blank"
+  },
+  {
+    "id": 8,
+    "name": "Mergulho Marinho",
+    "desc": "Despolua os mares pescando lixo para melhorar o habitat dos peixes!",
+    "level": "Nível 2",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://www.ludoeducativo.com.br/pt/play/mergulho-marinho?tag=todos-meio-ambiente",
+    "target": "_blank"
+  },
+  {
+    "id": 9,
+    "name": "Quebra-Cabeça da água",
+    "desc": "Aprenda como usar a água sem desperdiçar através destes quebra-cabeças!",
+    "level": "Nível 2",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://www.ludoeducativo.com.br/pt/play/quebra-cabeca-da-agua?tag=todos-meio-ambiente",
+    "target": "_blank"
+  },
+  {
+    "id": 10,
+    "name": "Cruzadinha da Reciclagem",
+    "desc": "Complete a cruzadinha com palavras relacionadas à reciclagem!",
+    "level": "Nível 3",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://www.ludoeducativo.com.br/pt/play/cruzadinha-da-reciclagem?tag=todos-meio-ambiente",
+    "target": "_blank"
+  },
+  {
+    "id": 11,
+    "name": "Ecoaqua",
+    "desc": "Ajude os Koshis a economizar água na hora do banho!",
+    "level": "Nível 3",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://www.ludoeducativo.com.br/pt/play/ecoaqua?tag=todos-meio-ambiente",
+    "target": "_blank"
+  },
+  {
+    "id": 12,
+    "name": "Ilha do Elfo",
+    "desc": "Ó Elfo, protetor da natureza, acorde os Totens Guardiões e defenda a floresta dos monstros de lixo! Eles invadiram o nosso espaço e precisamos expulsá-los. Vamos restabelecer o equilíbrio da natureza, lutando com coragem e determinação.",
+    "level": "Nível 3",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://www.escolagames.com.br/jogos/ilha-do-elfo",
+    "target": "_blank"
+  },
+  {
+    "id": 13,
+    "name": "Heróis dos Mares",
+    "desc": "Aprenda sobre os tipos de lixo, como eles afetam os mares e os animais, além de comandar um submarino na limpeza desses dejetos.",
+    "level": "Nível 3",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://www.escolagames.com.br/jogos/herois-dos-mares",
+    "target": "_blank"
+  },
+  {
+    "id": 14,
+    "name": "Coleta Seletiva",
+    "desc": "Aprenda como separar os lixos corretamente, colocando cada tipo de resíduo na lixeira adequada.",
+    "level": "Nível 2",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://www.escolagames.com.br/jogos/coleta-seletiva",
+    "target": "_blank"
+  },
+  {
+    "id": 15,
+    "name": "O Caminho da Lâmpada",
+    "desc": "Aprenda como usar e descartar lâmpadas corretamente para evitar que elas prejudiquem o meio ambiente.",
+    "level": "Nível 3",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://www.escolagames.com.br/jogos/o-caminho-da-lampada",
+    "target": "_blank"
+  },
+  {
+    "id": 16,
+    "name": "Coleta Seletiva",
+    "desc": "Coletânea de jogos da WORDWALL, venha praticar e aprender sobre a Coleta Seletiva!",
+    "level": "Nível 2",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://wordwall.net/pt-br/community/coleta-seletiva",
+    "target": "_blank"
+  },
+  {
+    "id": 17,
+    "name": "Guardiões do Planeta e os ODS!",
+    "desc": "Jogo educativo que ensina os 17 Objetivos de Desenvolvimento Sustentável (ODS) da Agenda 2030 da ONU de forma divertida e interativa. Os jogadores enfrentam desafios envolvendo desenho, música, teatro e conversa, enquanto aprendem sobre os 5 erres: reduzir, repensar, reaproveitar, reciclar e recusar.",
+    "level": "Nível 3",
+    "status": "nao-jogados",
+    "img": "imgs/Play.webp",
+    "page": "https://jogo1.peacampolimpo.org.br/",
+    "target": "_blank"
+  }
+]
