@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "titulo": "G1 Meio Ambiente",
+        "tipo": "Noticia",
+        "imagem": "prints/printsNOTI/51.png",
+        "link": "https://g1.globo.com/meio-ambiente/"
+    },
+    {
+        "id": 2,
+        "titulo": "Um Só Planeta",
+        "tipo": "Noticia",
+        "imagem": "prints/printsNOTI/52.png",
+        "link": "https://umsoplaneta.globo.com/"
+    },
+    {
+        "id": 3,
+        "titulo": "National Geographic Brasil",
+        "tipo": "Noticia",
+        "imagem": "prints/printsNOTI/53.png",
+        "link": "https://www.nationalgeographicbrasil.com/"
+    },
+    {
+        "id": 4,
+        "titulo": "WWF Brasil",
+        "tipo": "Noticia",
+        "imagem": "prints/printsNOTI/54.png",
+        "link": "https://www.wwf.org.br/"
+    },
+    {
+        "id": 5,
+        "titulo": "((o))eco",
+        "tipo": "Noticia",
+        "imagem": "prints/printsNOTI/55.png",
+        "link": "https://oeco.org.br/"
+    },
+    {
+        "id": 6,
+        "titulo": "Mongabay Brasil",
+        "tipo": "Noticia",
+        "imagem": "prints/printsNOTI/56.png",
+        "link": "https://brasil.mongabay.com/"
+    },
+    {
+        "id": 7,
+        "titulo": "Projeto #Colabora",
+        "tipo": "Noticia",
+        "imagem": "prints/printsNOTI/57.png",
+        "link": "https://projetocolabora.com.br/"
+    },
+    {
+        "id": 8,
+        "titulo": "Notícia Sustentável",
+        "tipo": "Noticia",
+        "imagem": "prints/printsNOTI/58.png",
+        "link": "https://noticiasustentavel.com.br/"
+    },
+    {
+        "id": 9,
+        "titulo": "Reset",
+        "tipo": "Noticia",
+        "imagem": "prints/printsNOTI/59.png",
+        "link": "https://capitalreset.com/"
+    },
+    {
+        "id": 10,
+        "titulo": "Exame ESG",
+        "tipo": "Noticia",
+        "imagem": "prints/printsNOTI/60.png",
+        "link": "https://exame.com/esg/"
+    },
+    {
+        "id": 11,
+        "titulo": "ESG Journal",
+        "tipo": "Noticia",
+        "imagem": "prints/printsNOTI/61.png",
+        "link": "https://braziljournal.com/esg/"
+    },
+    {
+        "id": 12,
+        "titulo": "CNN Brasil Sustentabilidade",
+        "tipo": "Noticia",
+        "imagem": "prints/printsNOTI/62.png",
+        "link": "https://www.cnnbrasil.com.br/tudo-sobre/sustentabilidade/"
+    },
+    {
+        "id": 13,
+        "titulo": "Estadão Sustentabilidade",
+        "tipo": "Noticia",
+        "imagem": "prints/printsNOTI/63.png",
+        "link": "https://www.estadao.com.br/"
+    }
+]

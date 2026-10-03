@@ -1,0 +1,813 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    background: #f8f8f3;
+    font-size: 20px;
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    
+    }
+    
+    nav {
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: 60px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #155912;
+    padding: 20px 8%;
+    z-index: 10; 
+    }
+    
+    .logo {
+        width: 120px;
+        height: auto;
+        display: block;
+        transition: transform 0.25s ease;
+    }
+    
+    .logo img {
+        width: 150px;
+        display: block;
+    }
+    
+    .logo:hover {
+        transform: scale(1.10);
+    }
+    
+    nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    }
+    
+    nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    }
+    
+    nav a:hover {
+    color: #9be28f;
+    }
+    
+    nav a.ativo {
+        color: #09c256;
+        font-weight: 800;
+    }
+    
+
+
+/* =========================
+   BIBLIOTECA
+========================= */
+
+.biblioteca {
+    width: 85%;
+    max-width: 1200px;
+    margin: 100px auto 30px;
+
+    flex: 1;
+}
+
+
+/* =========================
+   TOPO
+========================= */
+
+.texto-topo {
+    width: 100%;
+    min-height: 180px;
+
+    background: #155912;
+
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 40px;
+    margin-bottom: 20px; 
+}
+
+.texto-topo p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+    max-width: 750px;
+}
+
+
+/* =========================
+   FILTROS
+========================= */
+
+.area-filtros {
+    background: #155912;
+
+    border-radius: 12px;
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 40px;
+
+    margin-bottom: 30px;
+}
+
+.filtros h4 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.grupo-botoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.grupo-botoes button {
+    border: none;
+
+    background: #d9d9d9;
+
+    padding: 7px 14px;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.grupo-botoes button:hover {
+    transform: scale(1.05);
+}
+
+.grupo-botoes button.ativo {
+    background: #0E9647;
+    color: white;
+
+    font-weight: bold;
+
+    box-shadow: 0 0 0 2px white;
+}
+
+.grupo-botoes button.ativo:hover {
+    background: #0b7c3b;
+}
+
+
+/* =========================
+   BUSCA
+========================= */
+
+.busca {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 40px;
+}
+
+.busca input {
+    width: 500px;
+    max-width: 90%;
+
+    padding: 12px 20px;
+
+    border: none;
+    border-radius: 30px;
+
+    outline: none;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+
+/* =========================
+   CARDS
+========================= */
+
+#cards {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 220px));
+
+    justify-content: center;
+
+    gap: 30px;
+}
+
+
+/* =========================
+   NOTÍCIAS
+========================= */
+
+.card-noticia {
+    grid-column: span 2;
+
+    width: 100%;
+
+    background: #155912;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    text-decoration: none;
+
+    color: white;
+
+    transition: 0.3s;
+}
+
+.card-noticia:hover {
+    transform: translateY(-5px);
+
+    background: #2E6A35;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+}
+
+.card-noticia img {
+    width: 100%;
+    height: 220px;
+
+    object-fit: cover;
+
+    display: block;
+
+    border-radius: 15px 15px 0 0;
+}
+
+.card-noticia h3 {
+    font-size: 30px;
+
+    margin: 20px 15px 10px;
+
+    text-align: center;
+}
+
+.card-noticia p {
+    font-size: 15px;
+
+    margin: 0 15px 20px;
+
+    color: #E8F5E9;
+
+    text-align: center;
+}
+
+
+/* =========================
+   TUTORIAIS
+========================= */
+
+.card-tutorial {
+    width: 100%;
+    min-height: 370px;
+
+    background: #fff;
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    color: #1B4332;
+
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .08);
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+
+    transition: .3s;
+}
+
+#cards.tutoriais {
+    grid-template-columns:
+        repeat(2, minmax(320px, 1fr));
+
+    max-width: 800px;
+
+    margin: 0 auto;
+}
+
+.tutorial-link {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-rows: 120px 125px;
+
+    align-items: center;
+    justify-items: center;
+
+    text-decoration: none;
+
+    color: #1B4332;
+}
+
+.card-tutorial:hover {
+    transform: translateY(-6px);
+
+    box-shadow: 0 12px 28px rgba(0, 0, 0, .15);
+}
+
+.video-circle {
+    width: 90px;
+    height: 90px;
+
+    border-radius: 50%;
+
+    background: #0E9647;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: .3s;
+}
+
+.card-tutorial:hover .video-circle {
+    transform: scale(1.08);
+    background: #0b7c3b;
+}
+
+.video-circle span {
+    color: white;
+    font-size: 42px;
+}
+
+.card-tutorial h3 {
+    width: 100%;
+    height: 125px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    text-align: center;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    line-height: 1.4;
+
+    overflow: hidden;
+}
+
+
+/* =========================
+   LIVROS E ARTIGOS
+========================= */
+
+.card {
+    width: 220px;
+
+    min-height: 100px;
+
+    background: #d9d9d9;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+
+    object-fit: cover;
+
+    background: #4f8b43;
+
+    display: block;
+}
+
+.card-conteudo {
+    padding: 15px;
+
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
+    text-align: center;
+
+    color: #000;
+
+    margin-bottom: 10px;
+
+    font-size: 17px;
+}
+
+.card p {
+    text-align: center;
+
+    color: #000;
+
+    font-size: 15px;
+
+    margin-bottom: 8px;
+}
+
+.sem-imagem {
+    width: 100%;
+    height: 180px;
+
+    background: #4f8b43;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 70px;
+
+    color: white;
+}
+
+.tipo {
+    display: none;
+}
+
+
+/* =========================
+   STATUS
+========================= */
+
+.status-card {
+    margin-top: auto;
+}
+
+.status-card label {
+    display: block;
+
+    margin-bottom: 5px;
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.status-card select {
+    width: 100%;
+
+    padding: 8px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+
+/* =========================
+   BOTÃO
+========================= */
+
+.btn-abrir {
+    width: 100%;
+
+    margin-top: 10px;
+
+    background: #155912;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    padding: 10px;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.btn-abrir:hover {
+    background: #0E9647;
+}
+
+
+/* =========================
+   SEM RESULTADOS
+========================= */
+
+.sem-resultados {
+    font-size: 18px;
+    color: #666;
+
+    text-align: center;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    margin-top: 0;
+
+    background: #155912;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 30px 10%;
+
+    gap: 40px;
+
+    min-height: auto;
+}
+
+
+/* LOGO */
+
+.footer-logo img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+
+/* TÍTULOS */
+
+footer h3 {
+    margin-bottom: 20px;
+}
+
+
+/* MEMBROS */
+
+.membros {
+    display: block;
+}
+
+.membro {
+    margin: 8px 0;
+}
+
+.membro a {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    color: inherit;
+
+    text-decoration: none;
+}
+
+.membro a:hover {
+    color: #078C00;
+}
+
+
+/* GITHUB */
+
+.github-icon {
+    width: 20px;
+    height: 20px;
+
+    fill: currentColor;
+
+    transition: 0.2s;
+}
+
+.github-icon:hover {
+    fill: #9be28f;
+
+    transform: scale(1.15);
+}
+
+
+/* =========================
+   CONTATO
+========================= */
+
+.contato {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.contato h3 {
+    margin-bottom: 10px;
+}
+
+.email-box,
+.site-box {
+    width: 280px;
+
+    background: white;
+
+    color: #333;
+
+    padding: 8px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    margin-bottom: 8px;
+}
+
+.site-box a {
+    color: #333;
+
+    text-decoration: none;
+}
+
+.site-box a:hover {
+    color: #078C00;
+}
+
+#botao {
+    width: 165px;
+
+    padding: 7px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    background: #5d8955;
+
+    color: white;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+#botao:hover {
+    background: #476b3a;
+}
+
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+@media (max-width: 900px) {
+
+    .header {
+        padding: 0 25px;
+    }
+
+    .header nav {
+        gap: 10px;
+    }
+
+    .area-filtros {
+        flex-direction: column;
+    }
+
+    footer {
+        gap: 40px;
+        text-align: center;
+    }
+
+    .membro {
+        justify-content: center;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .header {
+        height: auto;
+
+        padding: 20px;
+
+        flex-direction: column;
+
+        gap: 15px;
+    }
+
+    .header nav {
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 10px;
+    }
+
+    .header a {
+        font-size: 14px;
+    }
+
+    .biblioteca {
+        width: 92%;
+    }
+
+    #cards.tutoriais {
+        grid-template-columns: 1fr;
+    }
+
+    .card-noticia {
+        grid-column: span 1;
+    }
+
+    footer {
+        padding: 40px 20px;
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .footer-logo img {
+        width: 180px;
+    }
+
+    .email-box,
+    .site-box {
+        width: 280px;
+        max-width: 90vw;
+    }
+
+}

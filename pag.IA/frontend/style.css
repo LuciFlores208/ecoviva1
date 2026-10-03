@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* =========================
+   FONTES DOS TÍTULOS
+========================= */
+
+h1,
+h2,
+h3,
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    font-size: 20px;
+    background: #fff;
+    color: #111;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    
+    }
+    
+    nav {
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: 60px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #155912;
+    padding: 20px 8%;
+    z-index: 10; 
+    }
+    
+    .logo {
+        width: 120px;
+        height: auto;
+        display: block;
+        transition: transform 0.25s ease;
+    }
+    
+    .logo img {
+        width: 150px;
+        display: block;
+    }
+    
+    .logo:hover {
+        transform: scale(1.10);
+    }
+    
+    nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    }
+    
+    nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    }
+    
+    nav a:hover {
+    color: #9be28f;
+    }
+    
+    nav a.ativo {
+        color: #09c256;
+        font-weight: 800;
+    }
+/* =========================
+   LAYOUT
+========================= */
+
+main {
+    display: flex;
+    min-height: calc(100vh - 80px);
+    padding-top: 60px;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+aside {
+    width: 290px;
+    flex-shrink: 0;
+
+    background: #155912;
+    color: white;
+    
+    padding: 30px 27px;
+}
+
+.capyImg {
+    margin-bottom: 35px;
+}
+
+.capyImg img {
+    width: 205px;
+    display: block;
+    margin: auto;
+}
+
+aside p {
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 20px;
+    line-height: 1.45;
+    font-weight: 600;
+}
+
+/* =========================
+   CONTEÚDO PRINCIPAL
+========================= */
+
+section {
+    flex: 1;
+
+    padding: 65px 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h1 {
+    width: 745px;
+    max-width: 100%;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 30px;
+    line-height: 1.25;
+    font-weight: 700;
+
+    text-align: center;
+}
+
+section h1 span {
+    color: #4d8d3b;
+}
+
+/* =========================
+   CHAT
+========================= */
+
+.chat {
+    width: 745px;
+    max-width: 100%;
+    height: 135px;
+
+    margin-top: 60px;
+
+    background: #ededed;
+    border-radius: 24px;
+
+    position: relative;
+
+    box-shadow: 0 3px 12px rgba(0, 0, 0, .10);
+}
+
+.chat textarea {
+    width: 100%;
+    height: 100%;
+
+    border: 0;
+    outline: 0;
+    resize: none;
+
+    background: transparent;
+
+    padding: 25px 80px 20px 27px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    color: #222;
+}
+
+.chat textarea::placeholder {
+    color: #888;
+}
+
+/* =========================
+   BOTÃO DO CHAT
+========================= */
+
+.chat button {
+    width: 50px;
+    height: 50px;
+
+    border: 0;
+    border-radius: 50%;
+
+    background: #155912;
+    color: white;
+
+    position: absolute;
+    right: 18px;
+    bottom: 18px;
+
+    cursor: pointer;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+
+    transition: .2s;
+}
+
+.chat button:hover {
+    transform: scale(1.08);
+    background: #4d8d3b;
+}
+
+.chat button:disabled {
+    background: #999;
+    cursor: not-allowed;
+}
+
+/* =========================
+   RESPOSTA
+========================= */
+
+.typing {
+    width: 745px;
+    max-width: 100%;
+    min-height: 64px;
+
+    margin-top: 40px;
+    padding: 17px 27px;
+
+    background: #ececec;
+    border-radius: 8px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    line-height: 1.5;
+
+    position: relative;
+}
+
+.typing::before {
+    content: "";
+
+    position: absolute;
+    top: -8px;
+    left: 10px;
+
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #ececec;
+}
+
+.loading {
+    color: #888;
+    font-style: italic;
+}
+
+.erro {
+    color: #d32f2f;
+}
+
+/* =========================
+   FOOTER ECOVIVA
+========================= */
+
+footer {
+    margin-top: 0;
+
+    background: #155912;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 30px 10%;
+
+    gap: 40px;
+
+    min-height: auto;
+}
+
+
+/* LOGO */
+
+.footer-logo img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+
+/* TÍTULOS */
+
+footer h3 {
+    margin-bottom: 20px;
+}
+
+
+/* MEMBROS */
+
+.membro {
+    margin: 8px 0;
+}
+
+.membro a {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    color: inherit;
+
+    text-decoration: none;
+}
+
+.membro a:hover {
+    color: #078C00;
+}
+
+.github-icon {
+    width: 20px;
+    height: 20px;
+
+    fill: currentColor;
+
+    transition: 0.2s;
+}
+
+.github-icon:hover {
+    fill: #9be28f;
+
+    transform: scale(1.15);
+}
+
+
+/* CONTATO */
+
+.contato {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.contato h3 {
+    margin-bottom: 10px;
+}
+
+.email-box,
+.site-box {
+    width: 280px;
+
+    background: white;
+
+    color: #333;
+
+    padding: 8px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    margin-bottom: 8px;
+}
+
+.site-box a {
+    color: #333;
+
+    text-decoration: none;
+}
+
+.site-box a:hover {
+    color: #078C00;
+}
+
+#botao {
+    width: 165px;
+
+    padding: 7px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    background: #5d8955;
+
+    color: white;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+#botao:hover {
+    background: #476b3a;
+}
+
+
+a {
+    color:#333;
+}
+.dg {
+   margin-top: 85px;
+}
+.github-icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    transition: 0.2s;
+}
+
+.github-icon:hover {
+    fill: #9be28f;
+    transform: scale(1.15);
+}
+.membro a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.membro a:hover {
+    color: #078C00;
+}
+
+.github-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+.frase {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.linha {
+    display: block;
+    width: 300px;
+    height: 3px;
+    background: #2F692F;
+    margin: 12px auto;
+    border-radius: 10px;
+}
+.proposito {
+    padding: 90px 8% 40px;
+}
+.footer-logo img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+/* =========================
+   RESPONSIVO - TABLET
+========================= */
+
+@media (max-width: 1000px) {
+
+    section {
+        padding: 50px;
+    }
+
+    section h1 {
+        width: 745px;
+        max-width: 100%;
+
+        font-size: 38px;
+    }
+
+    .chat {
+        width: 100%;
+    }
+
+    .typing {
+        width: 100%;
+    }
+}
+
+/* =========================
+   RESPONSIVO - CELULAR
+========================= */
+
+@media (max-width: 700px) {
+
+    header {
+        height: auto;
+
+        padding: 20px;
+
+        gap: 15px;
+
+        flex-direction: column;
+    }
+
+    nav {
+        gap: 15px;
+
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+        text-align: center;
+    }
+
+    section {
+        padding: 35px 20px;
+        align-items: center;
+    }
+
+    section h1 {
+        width: 100%;
+        max-width: 745px;
+
+        font-size: 28px;
+        line-height: 1.3;
+
+        text-align: left;
+    }
+
+    .chat {
+        width: 100%;
+        height: 150px;
+    }
+
+    .typing {
+        width: 100%;
+        padding: 15px 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contato {
+        width: 100%;
+    }
+}
