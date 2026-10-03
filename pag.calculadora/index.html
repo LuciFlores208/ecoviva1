@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoVivo - Calculadora de Carbono</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<header>
+<nav>
+
+    <a href="../Home/index.html" class="logo">
+        <img src="../Eco1/ecoviva_logo_1.png" alt="Logo EcoViva">
+    </a>
+
+        <ul>
+            <li><a href="../Home/index.html">Início</a></li>
+            <li><a href="../pag.mapa/pMapa.html">Mapa</a></li>
+            <li><a href="../pag.jogos/pJogos.html">Jogos</a></li>
+            <li><a href="../pag.calculadora/index.html" class="ativo">Calculadora</a></li>
+            <li><a href="../pag.biblioteca/pBiblioteca.html">Biblioteca</a></li>
+            <li><a href="../pag.IA/frontend/index.html">Capy</a></li>
+        </ul>
+
+    </nav>
+</header>
+<main class="card">
+
+    <div class="header1">
+        <h1>Calculadora de Carbono</h1>
+        <p>Calcule sua pegada de carbono mensal e descubra como reduzir seu impacto ambiental</p>
+    </div>
+
+    <hr>
+
+    <form id="form">
+        <div class="bloco">
+            <h2>Transporte</h2>
+            <label>Quilômetros de carro por mês:</label>
+            <input type="number" id="carro" value="500" min="0">
+            <small>Média: 0.21 kg CO₂/km</small>
+
+            <label>Quilômetros de ônibus por mês:</label>
+            <input type="number" id="onibus" value="100" min="0">
+            <small>Média: 0.09 kg CO₂/km</small>
+
+            <label>Horas de voo por mês:</label>
+            <input type="number" id="aviao" value="0" min="0">
+            <small>Média: 60 kg CO₂/hora</small>
+        </div>
+
+        <div class="bloco">
+            <h2>Energia</h2>
+            <label>Consumo de energia (kWh/mês):</label>
+            <input type="number" id="energia" value="200" min="0">
+            <small>Média: 0.45 kg CO₂/kWh</small>
+        </div>
+
+        <div class="bloco">
+            <h2>Alimentação</h2>
+            <label>Refeições com carne por semana:</label>
+            <input type="number" id="carne" value="5" min="0">
+            <small>Média: 5 kg CO₂/refeição</small>
+
+            <label>Refeições vegetarianas por semana:</label>
+            <input type="number" id="vegetariano" value="2" min="0">
+            <small>Média: 1.5 kg CO₂/refeição</small>
+        </div>
+
+        <div class="bloco">
+            <h2>Consumo</h2>
+            <label>Compras de roupas por mês:</label>
+            <input type="number" id="roupa" value="2" min="0">
+            <small>Média: 30 kg CO₂/compra</small>
+
+            <label>Compras de eletrônicos por ano:</label>
+            <input type="number" id="eletronico" value="1" min="0">
+            <small>Média: 150 kg CO₂/compra</small>
+        </div>
+
+        <button type="submit">Calcular Pegada de Carbono</button>
+    </form>
+
+    <div id="resultado">
+        <h3>Resultado</h3>
+        <div class="grid-resultado">
+            <div><span>Total Mensal</span><strong id="mes">0</strong><small>kg CO₂</small></div>
+            <div><span>Total Anual</span><strong id="ano">0</strong><small>kg CO₂</small></div>
+            <div><span>Árvores necessárias</span><strong id="arvores">0</strong><small>árvores/ano</small></div>
+            <div><span>Impacto</span><strong id="impacto" class="badge">—</strong></div>
+        </div>
+    </div>
+
+    <hr>
+
+    <h3>Dicas para Reduzir sua Pegada de Carbono</h3>
+    <div class="grid-dicas">
+        <div><h4>Transporte</h4><p>Prefira caminhar, andar de bicicleta ou usar transporte público.</p></div>
+        <div><h4>Energia</h4><p>Use lâmpadas LED e apague luzes ao sair dos cômodos.</p></div>
+        <div><h4>Alimentação</h4><p>Reduza o consumo de carne vermelha e prefira alimentos locais.</p></div>
+        <div><h4>Consumo</h4><p>Compre apenas o necessário e prefira produtos duráveis.</p></div>
+    </div>
+
+    <hr>
+
+    <h3>Sobre a Calculadora</h3>
+    <p>Esta calculadora ajuda você a entender seu impacto ambiental baseado em hábitos de transporte, energia, alimentação e consumo.</p>
+    <p><strong>Fatores considerados:</strong></p>
+    <ul>
+        <li>Transporte (carro, ônibus, avião)</li>
+        <li>Consumo de energia elétrica</li>
+        <li>Hábitos alimentares</li>
+        <li>Consumo de bens</li>
+    </ul>
+
+</main>
+
+<footer>
+
+    <div class="footer-logo">
+ <img src="../Eco1/ecoviva_logo_2.png" alt="Logo EcoViva">
+</div>
+
+<div class="membros">
+ <h3>Membros</h3>
+
+ <div class="membro">
+     <a href="https://github.com/LuciFlores208" target="_blank" rel="noopener noreferrer">
+         <svg class="github-icon" viewBox="0 0 24 24" aria-label="GitHub">
+             <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.92.58.11.79-.25.79-.56v-2.17c-3.2.7-3.88-1.36-3.88-1.36-.53-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.06 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.77.11 3.06.73.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.41-5.25 5.69.41.36.78 1.08.78 2.18v3.23c0 .31.21.68.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
+         </svg>
+         <span>Luciana Flores</span>
+     </a>
+ </div>
+
+ <div class="membro">
+     <a href="https://github.com/wwcllara-dev" target="_blank" rel="noopener noreferrer">
+         <svg class="github-icon" viewBox="0 0 24 24" aria-label="GitHub">
+             <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.92.58.11.79-.25.79-.56v-2.17c-3.2.7-3.88-1.36-3.88-1.36-.53-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.06 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.77.11 3.06.73.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.41-5.25 5.69.41.36.78 1.08.78 2.18v3.23c0 .31.21.68.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
+         </svg>
+         <span>Clara Elisa</span>
+     </a>
+ </div>
+
+ <div class="membro">
+     <a href="https://github.com/guirodrigues26" target="_blank" rel="noopener noreferrer">
+         <svg class="github-icon" viewBox="0 0 24 24" aria-label="GitHub">
+             <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.92.58.11.79-.25.79-.56v-2.17c-3.2.7-3.88-1.36-3.88-1.36-.53-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.06 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.77.11 3.06.73.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.41-5.25 5.69.41.36.78 1.08.78 2.18v3.23c0 .31.21.68.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
+         </svg>
+         <span>Guilherme Silva</span>
+     </a>
+ </div>
+</div>
+
+
+        <div class="contato">
+ <h3>Contate-nos:</h3>
+
+ <div class="email-box">
+     <span id="email">ecoviva.world@gmail.com</span>
+ </div>
+
+ <div class="site-box">
+     <a href="https://github.com/LuciFlores208/EcoViva.git" target="_blank">
+ GitHub EcoViva
+</a>
+ </div>
+
+ <button id="botao" onclick="copiarEmail()">
+     Copiar e-mail
+ </button>
+</div>
+
+ </footer>
+<script src="script.js"></script>
+</body>
+</html>
