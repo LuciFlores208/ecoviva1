@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* =========================
+CONFIGURAÇÕES GERAIS
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+body {
+background: #f8f8f3;
+font-size: 20px;
+color: #333;
+
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+button {
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+}
+
+a {
+color: #333;
+}
+
+/* =========================
+HEADER
+========================= */
+
+header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 10;
+
+}
+
+nav {
+top: 0;
+left: 0;
+max-width: 100%;
+height: 60px; 
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #155912;
+padding: 20px 8%;
+z-index: 10; 
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    display: block;
+    transition: transform 0.25s ease;
+}
+
+.logo img {
+    width: 150px;
+    display: block;
+}
+
+.logo:hover {
+    transform: scale(1.10);
+}
+
+nav ul {
+display: flex;
+gap: 30px;
+list-style: none;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+transition: 0.2s;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+}
+
+nav a:hover {
+color: #9be28f;
+}
+
+nav a.ativo {
+    color: #09c256;
+    font-weight: 800;
+}
+
+/* =========================
+TOPO
+========================= */
+
+.topo {
+min-height: 70vh;
+
+
+background: #155912;
+color: white;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+gap: 80px;
+
+padding: 140px 8% 70px;
+
+
+}
+
+.texto-topo {
+width: 700px;
+max-width: 60%;
+
+text-align: justify;
+
+font-size: 18px;
+line-height: 1.8;
+
+
+}
+
+.texto-topo p {
+margin-bottom: 20px;
+}
+
+/* =========================
+DESTAQUES
+========================= */
+
+.destaque,
+.destaque1 {
+color: #078C00;
+font-weight: 700;
+}
+.topo .texto-topo .destaque{
+    color: #5de456;
+}
+
+/* =========================
+CARD DO MAPA
+========================= */
+
+.card-mapa {
+width: 350px;
+min-height: 250px;
+
+
+background: white;
+color: #1E5631;
+
+border-radius: 25px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+gap: 10px;
+
+padding: 35px;
+
+text-align: center;
+
+box-shadow: 10px 15px 18px 10px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.card-mapa h4 {
+font-size: 22px;
+margin: 5px 0 10px;
+}
+
+.card-mapa button {
+width: 100%;
+
+padding: 14px;
+
+border: none;
+border-radius: 50px;
+
+background: #078C00;
+color: white;
+
+font-size: 16px;
+font-weight: 600;
+
+cursor: pointer;
+
+transition: 0.3s;
+
+
+}
+
+.card-mapa button:hover {
+transform: translateY(-3px);
+background: #476b3a;
+}
+
+.card-mapa button:first-of-type {
+margin-bottom: 20px;
+}
+
+/* =========================
+CORPO
+========================= */
+
+.corpo {
+background: white;
+
+
+padding: 80px 0;
+
+width: 100%;
+
+position: relative;
+
+border-top: 20px solid #0E9647;
+
+
+}
+
+.corpo h1,
+.corpo h2,
+.corpo p {
+width: 900px;
+max-width: 90%;
+
+
+margin-left: auto;
+margin-right: auto;
+
+
+}
+
+.corpo h1 {
+color: #078C00;
+
+
+font-size: 48px;
+
+margin-bottom: 45px;
+
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+
+
+}
+
+.corpo h2 {
+color: #078C00;
+
+
+font-size: 32px;
+
+margin-top: 40px;
+margin-bottom: 15px;
+
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+
+
+}
+
+.corpo p {
+line-height: 1.8;
+
+
+font-size: 18px;
+
+color: #333;
+
+margin-bottom: 30px;
+
+
+}
+
+.esquerda {
+text-align: left;
+}
+
+.direita {
+text-align: right;
+}
+
+/* =========================
+GALERIA
+========================= */
+
+.galeria {
+    background: white;
+    width: 100%;
+    padding: 30px 30px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.container-fotos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+}
+
+.container-fotos img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 0.4s;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.container-fotos img.ativa {
+    width: 400px !important;
+    height: 290px !important;
+    transform: scale(1.05);
+}
+
+.controles {
+    display: flex;
+    gap: 50px;
+}
+
+.controles button {
+    border: none;
+    background: none;
+    color: #244d23;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.controles button:hover {
+    color: #078C00;
+    transform: scale(1.1);
+}
+/* =========================
+FOOTER
+========================= */
+
+footer {
+    margin-top: 0;
+    background: #155912;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    gap: 40px;
+    min-height: auto;
+}
+
+
+/* LOGO */
+
+.footer-logo img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+
+/* TÍTULOS */
+
+footer h3 {
+    margin-bottom: 20px;
+}
+
+
+/* MEMBROS */
+
+.membro {
+    margin: 8px 0;
+}
+
+.membro a {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    color: inherit;
+
+    text-decoration: none;
+}
+
+.membro a:hover {
+    color: #078C00;
+}
+
+.github-icon {
+    width: 20px;
+    height: 20px;
+
+    fill: currentColor;
+
+    transition: 0.2s;
+}
+
+.github-icon:hover {
+    fill: #9be28f;
+
+    transform: scale(1.15);
+}
+
+
+/* CONTATO */
+
+.contato {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.contato h3 {
+    margin-bottom: 10px;
+}
+
+.email-box,
+.site-box {
+    width: 280px;
+
+    background: white;
+
+    color: #333;
+
+    padding: 8px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    margin-bottom: 8px;
+}
+
+.site-box a {
+    color: #333;
+
+    text-decoration: none;
+}
+
+.site-box a:hover {
+    color: #078C00;
+}
+
+#botao {
+    width: 165px;
+
+    padding: 7px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    background: #5d8955;
+
+    color: white;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+#botao:hover {
+    background: #476b3a;
+}
+
+
+a {
+    color:#333;
+}
+.dg {
+   margin-top: 85px;
+}
+.github-icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    transition: 0.2s;
+}
+
+.github-icon:hover {
+    fill: #9be28f;
+    transform: scale(1.15);
+}
+.membro a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.membro a:hover {
+    color: #078C00;
+}
+
+.github-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+.frase {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.linha {
+    display: block;
+    width: 300px;
+    height: 3px;
+    background: #2F692F;
+    margin: 12px auto;
+    border-radius: 10px;
+}
+.proposito {
+    padding: 90px 8% 40px;
+}
+.footer-logo img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+/* =========================
+RESPONSIVO
+========================= */
+
+@media (max-width: 900px) {
+
+
+nav {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 5%;
+}
+
+nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.topo {
+    flex-direction: column;
+
+    padding: 180px 5% 70px;
+
+    gap: 40px;
+}
+
+.texto-topo {
+    max-width: 100%;
+    width: 100%;
+
+    text-align: center;
+}
+
+.card-mapa {
+    width: 90%;
+    max-width: 350px;
+}
+
+.corpo {
+    padding: 60px 0;
+}
+
+.corpo h1 {
+    font-size: 38px;
+}
+
+.corpo h2 {
+    font-size: 28px;
+}
+
+.corpo p {
+    text-align: justify;
+}
+
+.container-fotos {
+    flex-wrap: wrap;
+}
+
+.container-fotos img {
+    width: 130px;
+    height: 130px;
+}
+
+.container-fotos img.ativa {
+    width: 200px !important;
+    height: 160px !important;
+}
+
+footer {
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 35px;
+
+    text-align: center;
+
+    padding: 40px 20px;
+}
+
+.membro a {
+    justify-content: center;
+}
+}
+
+/* =========================
+   IMAGEM AMPLIADA
+========================= */
+
+.modal-imagem {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.75);
+
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.modal-imagem.aberta {
+    display: flex;
+}
+
+.modal-imagem img {
+    max-width: 90%;
+    max-height: 85vh;
+    object-fit: contain;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.fechar {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.fechar:hover {
+    color: #9be28f;
+}

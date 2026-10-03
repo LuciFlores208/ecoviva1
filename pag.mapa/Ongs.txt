@@ -1,0 +1,695 @@
+1-INSTITUTO PATULUS
+Endereço: RUA CATAO DE JESUS COELHO, 160 - CONJ 201 - MARIA DO CARMO, São Borja - RS
+Atividade Econômica: Atividades de organizações associativas ligadas à cultura e à arte
+Natureza Jurídica: Associação Privada
+ 
+2-ASSOCIACAO DE PROTECAO AMBIENTAL AMIGOS DO RIO PIRATINI
+Endereço: RUA GAL LEOVEGILDO ALVES PAIVA, 1643 - CENTRO, São Luiz Gonzaga - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+3-UPPAN
+Endereço: RUA JOSE BONIFACIO, 1833 - CENTRO, Dom Pedrito - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+4-FUNDACAO MO'A - ESTUDOS E PESQUISAS PARA A PROTECAO E O DESENVOLVIMENTO AMBIENTAL
+Endereço: AVENIDA NOSSA SENHORA DAS DORES, 791 - PREDIO APUSM SEGUNDO PISO - NOSSA SENHORA DAS DORES, Santa Maria - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Fundação Privada
+ 
+5-ARPA-FIUZA
+Endereço: RUA DUQUE DE CAXIAS, 230 - APTO. 202 - CENTRO, Panambi - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+6-ONG AMIGOSDAMATA
+Endereço: RUA ARISTIDES MACHADO, 558 - BAIRRO DR. PINTO, Palmeira das Missões - RS
+Atividade Econômica: Atividades associativas não especificadas anteriormente
+Natureza Jurídica: Associação Privada
+ 
+7-ELOVERDE
+Endereço: RUA SANTA CATARINA, 29 - SALA 32 - CENTRO, Erechim - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+8-ADEVINVARU
+Endereço: RUA ESPIRITO SANTO, 164 - CENTRO, Erechim - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+9-GUARDIOES DA VIDA
+Endereço: RUA PIAUI, 264 - SAO JOSE, Passo Fundo - RS
+Atividade Econômica: Atividades de jardins botânicos, zoológicos, parques nacionais, reservas ecológicas e áreas de proteção ambiental
+Natureza Jurídica: Associação Privada
+ 
+10-CETAP
+Endereço: RUA LUIZ FEROLDI, 50 - BOQUEIRAO, Passo Fundo - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+11-CONSERVAR
+Endereço: ACESSO RS 324 KM 122, S/N - LOTEAMENTO PARQUE DO SOL, Passo Fundo - RS
+Atividade Econômica: Atividades associativas não especificadas anteriormente
+Natureza Jurídica: Associação Privada
+ 
+12-AMA
+Endereço: RUA PRESIDENTE VARGAS, 190 - FUNDOS - CENTRO, Carazinho - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+13-ADES
+Endereço: AVENIDA FLORES DA CUNHA, 2455 - CONJ 01 - CENTRO, Carazinho - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+14-CENTRO ECOLOGICO
+Endereço: RUA LUIS AUGUSTO BRANCO, 725 - CRUZEIRO, Ipê - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+15-ABEPAN
+Endereço: TRAVESSA SANTO ANTONIO, 56 - CIDADE ALTA, Bento Gonçalves - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+16-ALGA
+Endereço: NA OS 18 DO FORTE, 2557 - 44 - SAO PELEGRINO, Caxias do Sul - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+17-INSTITUTO ORBIS DE PROTECAO E CONSERVACAO DA NATUREZA
+Endereço: RUA GUIA LOPES, 383 - SALA 71 - CENTRO, Caxias do Sul - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+18-ASSECAN
+Endereço: OUTROS RPPN BOSQUE DE CANELA, S/N - CAIXA POSTAL 29 - TIRIRICA, Canela - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+19-ATURMA
+Endereço: RUA TIRADENTES, 256 - ANDAR 2 - CENTRO, Nova Petrópolis - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+20-ASTEPAN
+Endereço: RUA VISCONDE DE MAUA, 374 - CENTRO, Três Coroas - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+21-NUCLEO SOCIO-AMBIENTAL ARACA-PIRANGA
+Endereço: RUA OTTO KUNTZ, 176 - APTO 14 - SETOR 05, Sapiranga - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+22-MOVIMENTO ROESSLER PARA DEFESA AMBIENTAL
+Endereço: RUA SANTOS PEDROSO, 470 - SALA 02 - CENTRO, Novo Hamburgo - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+23-ASSOCIACAO ECOBE
+Endereço: RUA GUSTAVO WIENANDTS, 1115 - CENTRO, Arroio do Meio - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+24-PRO-TAQUARI
+Endereço: AVENIDA BENJAMIN CONSTANT, 8.309 - CONVENTOS, Lajeado - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Fundação Privada
+ 
+25-SOMA
+Endereço: RUA JOAO AVELINO MARIA, 387 - JARDIM DO CEDRO, Lajeado - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+26-FUNDACAO GAIA
+Endereço: ESTRADA CAPAO DA FONTE, S/N - BR 290 - AREA RURAL, Rio Pardo - RS
+Atividade Econômica: Atividades de jardins botânicos, zoológicos, parques nacionais, reservas ecológicas e áreas de proteção ambiental
+Natureza Jurídica: Fundação Privada
+ 
+27-ANAMA
+Endereço: ESTRADA ERS484, 780 - LINHA COSTA DO CEU, Maquiné - RS
+Atividade Econômica: Atividades de apoio à produção florestal
+Natureza Jurídica: Associação Privada
+ 
+28-APN VALE DO GRAVATAI
+Endereço: RUA DR. LUIZ BASTOS DO PRADO, 926 - CENTRO, Gravataí - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+29-INSTITUTO CAMINHO DO MEIO
+Endereço: ESTRADA CAMINHO DO MEIO, 2600 B - VILA AUGUSTA, Viamão - RS
+Atividade Econômica: Atividades associativas não especificadas anteriormente
+Natureza Jurídica: Associação Privada
+ 
+30-SAALVE
+Endereço: RUA DAS PAPOLAS, 318 - AGUAS CLARAS, Viamão - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+32-INGA ESTUDOS AMBIENTAIS
+Endereço: RUA CORREA LIMA, 1388 - FUNDOSFUNDOS - SANTA TEREZA, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+33-NUCLEO AMIGOS DA TERRA /BRASIL
+Endereço: RUA OLAVO BILAC, 192 - AZENHA, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+34-IGRE - ASSOCIACAO SOCIO-AMBIENTALISTA
+Endereço: RUA DR BARBOSA GONCALVES, 551 - CHACARA PEDRAS, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+35-SOS TERRA VIDA
+Endereço: RUA SAO LUCAS, 421 - JARDIM DO SALSO, Porto Alegre - RS
+Atividade Econômica: Atividades associativas não especificadas anteriormente
+Natureza Jurídica: Associação Privada
+ 
+36-MIRA-SERRA
+Endereço: AVENIDA LAGEADO, 1360 - SALA 20 - PETROPOLIS, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+37-ASSOCIACAO GAUCHA DE PROTECAO AO AMBIENTE NATURAL
+Endereço: AVENIDA PROTASIO ALVES, 491 - SALA 301 - PETROPOLIS, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+38-CURICACA
+Endereço: RUA FARIA SANTOS, 47 - SALA 504 - PETROPOLIS, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+39-ASSOCIACAO AMBIENTAL AMIGOS DA PAISAGEM PRESERVADA DE QUINTAO - (APAIP-Q)
+Endereço: AVENIDA PARAGUASSU, S/N - SALAO SOC.DA IGREJA - QUINTAO, Palmares do Sul - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+40-APROMAC
+Endereço: RUA JULIO DE CASTILHOS, 254 - SALA 308 - CENTRO, Camaquã - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+41-INSTITUTO AMBIENTAL E CULTURAL ANDREA SCHERER
+Endereço: RUA JOSE DE SOUZA CASTRO, 1081 - CASA - OLARIA, Camaquã - RS
+Atividade Econômica: Atividades de jardins botânicos, zoológicos, parques nacionais, reservas ecológicas e áreas de proteção ambiental
+Natureza Jurídica: Associação Privada
+ 
+42-GEAN
+Endereço: RUA DR DIONISIO DE MAGALHAES, 43 - CASA - CENTRO, Arroio Grande - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+43-CENTRO DE ESTUDOS AMBIENTAIS CEA
+Endereço: NA VICE ALMIRANTE ABREU, 471 - FUNDOS - CENTRO, Rio Grande - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+44-NEMA
+Endereço: RUA MARIA ARAUJO, 450 - CASSINO, Rio Grande - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+45-INSTITUTO DE CONSERVACAO ECO DOS CAMPOS - Portaria Nº: 1.633, Data: 05-03-2026
+CNPJ: 49.285.780/0001-52
+Endereço: Rua General Camara n°901
+Bairro: Centro
+CEP: 97.300-442
+Cidade: SÃO GABRIEL
+UF: RS
+Site: www.ecodoscampos.org
+ 
+46-Instituto Brasileiro de Conservação da Natureza - Portaria Nº: 1.681, Data: 13-05-2026
+CNPJ: 10.985.221/0001-10
+Endereço: Rua Pedro Ardêmio Hilgert, 21/204-A
+Bairro: Centro
+CEP: 92.310-560
+Cidade: CANOAS
+UF: RS
+Site: https://ibracon.webnode.page
+ 
+47-ASSOCIAÇÃO ONDA VERDE PRESERVANDO O MEIO AMBIENTE - Portaria Nº: 06, Data: 10-01-2005
+CNPJ: 03.201.354/0001-92
+Endereço: Rua Padre Gollo, 60 , Praia da Cal
+Bairro: Centro
+CEP: 95.560-000
+Cidade: TORRES
+UF: RS
+Site: instagram - onda verde; facebook - onda verde news e onda verde preservando o meio ambiente
+ 
+48-Associação Ijuiense de proteção ao ambiente natural - Portaria Nº: 1.633, Data: 05-03-2026
+CNPJ: 93.245.231/0001-46
+Endereço: rua alvaro chaves, 326
+Bairro: centro
+CEP: 90.700-000
+Cidade: IJUÍ
+UF: RS
+Site: www.aipan.org.br
+ 
+49 - ABRAPA - ASSOCIACAO BRASILEIRA PARA A PRESERVACAO AMBIENTAL
+Endereço: RUA GENERAL CANABARRO, 375/403, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+50 - ACAN
+Endereço: RUA 20 DE SETEMBRO, 839, Guaíba - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+51 - ACCUDAM
+Endereço: RUA FLORES DA CUNHA, 2517, Uruguaiana - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+52 - ACUPAMA
+Endereço: AV. SETE DE SETEMBRO, 896 CAIXA POSTAL 364, Uruguaiana - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+53 - ADAS
+Endereço: RUA DR. CAMPOS VELHO, 591 AP 303, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+54 - AECIA - ASSOC. DOS AGRIC. ECOLÓGICOS DE IPÊ E ANTONIO PRADO
+Endereço: CAIXA POSTAL 21, Antônio Prado - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+55 - AECIA - IPÊ
+Endereço: AV. DOS IMIGRANTES, 189 CX. POSTAL 51, Ipê - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+56 - AGADEMA
+Endereço: AV. RIO BRANCO, 117, Garibaldi - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+57 - AGIRAZUL - DIVULGAÇÃO AMBIENTALISTA
+Endereço: CAIXA POSTAL 1222, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+58 - AMAI
+Endereço: RUA CERVANTES, 39, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+59 - AMAPAN
+Endereço: AV. DOM PEDRO II, 269, Alecrim - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+60 - ANDREZA CUNHA - PENSAMENTO ECOLÓGICO
+Endereço: RUA BARÃO DO TRIUNFO, 480, Osório - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+61 - APAARI - ASSOC. DE PROTEÇÃO AMBIENTAL AMIGOS DO RIO IJUÍ
+Endereço: RUA HELMUTH SCHMIDT, 949, Cerro Largo - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+62 - APEDEMA DO RIO GRANDE DO SUL
+Endereço: RUA CARLOS TREIN, 7, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+63 - ARGIPA
+Endereço: RUA BENJAMIM CONSTANT, 125, Rio Grande - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+64 - ARNO BLACK
+Endereço: RUA MATHIAS JOSÉ BINS, 1052, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+65 - ARPO - ASSOC. DOS PRODUTORES ORGÂNICOS DE PANAMBI
+Endereço: CAIXA POSTAL 440, Panambi - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+66 - ASSOC. AGRIC. ECOLOGICA CAE-IPE
+Endereço: CX POSTAL 21, Ipê - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+67 - ASSOC. AMBIENTALISTA BIGUÁ
+Endereço: RUA JUSTINO GONÇALVES, 267 SALA 2, Arambaré - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+68 - ASSOC. AMIGOS DA NATUREZA - AMA
+Endereço: AV. DOS PRESIDENTES, 207 FLORIDA, Guaíba - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+69 - ASSOC. CANOENSE DE PAN - ASCAPAN
+Endereço: CAIXA POSTAL 383 RUA CEL. VICENTE, 191, Canoas - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+70 - ASSOC. CAXIENSE DE PAN - ASCAPAN
+Endereço: RUA GARIBALDI, 2105, Caxias do Sul - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+71 - ASSOC. DE DEFESA DA VIDA E DA NATUREZA DO VALE DO R. URUGUAI
+Endereço: CAIXA POSTAL 372 - RUA ESPÍRITO SANTO, 164, Erechim - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+72 - ASSOC. DE PRESERVAÇÃO DO VALE DO RIO GRAVATAÍ - APN-VG
+Endereço: RUA OSÓRIO RAMOS CORREA, 243, Gravataí - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+73 - ASSOC. DE PROTEÇÃO AO AMBIENTE NATURAL - APAN
+Endereço: RUA BUENOS AIRES, 749 AP. 301 CENTRO, Santa Rosa - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+74 - ASSOC. DO MEIO AMBIENTE DE IMBÓ - AMAI
+Endereço: RUA CERVANTES, 39, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+75 - ASSOC. DOS FRUTICULTORES ECOLÓGICOS DE SOBRADINHO - AFES
+Endereço: RUA GEN. OSÓRIO, 200 CENTRO, Sobradinho - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+76 - ASSOC. ECOL.PARCEIROS DA NATUREZA - ASEPAN
+Endereço: CAIXA POSTAL 538, Santa Maria - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+77 - ASSOC. ECOLÓGICA AGUAPÉ
+Endereço: RUA FELICÍSSIMO ALFONSIN, 680, Tapes - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+78 - ASSOC. ECOLÓGICA ARCO-ÍRIS
+Endereço: RUA OSVALDO ARANHA, 1277, Venâncio Aires - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+79 - ASSOC. FAXINALENSE DE PROTEÇÃO AO AMBIENTE NATURAL - AFAPAN
+Endereço: RUA ALBERTO PASQUALINI, 810, Faxinal do Soturno - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+80 - ASSOC. GABRIELENSE DE PAN - ASGAPAN
+Endereço: RUA CEL. TRISÃO PINTO, 851, São Gabriel - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+81 - ASSOC. IBIRUBENSE DE APLICADORES DE BIOFERTILIZANTES - ABIO
+Endereço: RUA LINHA PULADOR SUL S/Nº, Ibirubá - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+82 - ASSOC. IRAIENSE DE PAN
+Endereço: RUA JOÃO CARLOS MACHADO, 195, Iraí - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+83 - ASSOC. ITAQUIENSE DE PROTEÇÃO AO AMBIENTE NATURAL - AIPAN
+Endereço: CAIXA POSTAL 86 RUA, 2 - VILA MACAMBARÁ, Itaqui - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+84 - ASSOC. PROT MEIO AMBIENTE
+Endereço: RUA JÚLIO DE CASTILHOS, 499 AP. 201, Camaquã - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+85 - ASSOC. QUARAIENSE DE PAN - ASQUAPAN
+Endereço: RUA EXPEDICIONÁRIO, 103, Quaraí - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+86 - ASSOC. SANTANENSE DE PAN - ASPAN
+Endereço: CÂMARA MUNICIPAL DE VEREADORES, Santana do Livramento - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+87 - ASSOC. SÃO JERONIMENSE DE PAN
+Endereço: RUA CEL. SOARES 479 CENTRO CAIXA POSTAL 01, São Jerônimo - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+88 - ASSOC. SÃO-BORJENSE DE PAN - ASPAN
+Endereço: CAIXA POSTAL 21, São Borja - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+89 - ASSOC. SAPUCAIA DE PROTEÇÃO AMBIENTAL - ASPAN
+Endereço: AV. RUBEM BERTA, 1370, Sapucaia do Sul - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+90 - ASSOC. SARANDIENSE DE PROTEÇÃO AO AMBIENTE NATURAL - ASAPAN
+Endereço: CAIXA POSTAL 227, Sarandi - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+91 - AVIDA
+Endereço: RUA JÚLIO ROSA, 919, Ibirubá - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+92 - BIGUÁ - SENTINELA DAS ÁGUAS
+Endereço: AV. BENTO GONÇALVES, 9500 (INSTITUTO DE PESQUISAS HIDRÁULICAS), Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+93 - CAIMÃ FAUNA E FLORA
+Endereço: RUA JOÃO VEDANA, 364, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+94 - CENTRO ACADÊMICO DE ENGENHARIA AMBIENTAL
+Endereço: RUA MIGUEL TOSTES, 101 - PRÉDIO 13 - SALA 6, Canoas - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+95 - CENTRO DE ACONSELHAMENTO DO PEQUENO PRODUTOR - CAPA
+Endereço: RUA ISOLINA PASSOS, 419, São Lourenço do Sul - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+96 - CENTRO DE AGRICULTURA ECOLÓGICA - CAEIPÊ
+Endereço: CAIXA POSTAL 21, Ipê - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+97 - CONSELHO REGIONAL DE BIOLOGIA
+Endereço: AV. TAQUARA, 596 SALA 502, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+98 - COOPERATIVA ECOLÓGICA COOLMEIA
+Endereço: PORTO ALEGRE - RS (endereço não especificado)
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+99 - COOPERATIVA SÍTIO PÉ-NA-TERRA
+Endereço: LOMBA GRANDE - MORRO DOS BOIS, Novo Hamburgo - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+100 - DIR. ACADÊMICO DO INST. DE BIOCIÊNCIAS - DAIB
+Endereço: AV. BENTO GONÇALVES, 9500 BLOCO 4, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+101 - ECOCYCLO - CONSULTORIA E PROJETOS AMBIENTAIS
+Endereço: RUA EDUARDO CHARTIER, 871/01 - HIGIENÓPOLIS, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+102 - ECONOVA - ECOLOGISTAS DE NOVA PETRÓPOLIS
+Endereço: CAIXA POSTAL 003, Nova Petrópolis - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+103 - ECOPALMAR SOC. DE DEF.DO MEIO AMBIENTE
+Endereço: CAIXA POSTAL 189, Santa Vitória do Palmar - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+104 - ECOS DO SUL
+Endereço: AV. BARÃO DO RIO BRANCO, 131, Torres - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+105 - ECOSSIS
+Endereço: AV. JÚLIO DE CAXIAS, 1401 AP. 301, Caxias do Sul - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+106 - FUNDAÇÃO ECOLÓGICA GUABIJUENSE
+Endereço: RUA JOSÉ BONIFÁCIO, 416, Guabiju - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Fundação Privada
+ 
+107 - FUNDAÇÃO PRÓ-NATUREZA/RS
+Endereço: AV. CEL. MARCUS, 63, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Fundação Privada
+ 
+108 - GEA
+Endereço: RUA DA REPÚBLICA, 139, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+109 - GEOCENTRO - CENTRO ALTERNATIVO DE EDUCAÇÃO E PESQUISA AMBIENTAL
+Endereço: RUA ILHA DA FEITORIA, 120, Rio Grande - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+110 - GRITO DA TERRA
+Endereço: RUA CEARÁ, 342, Portão - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+111 - GRUNWELT - ASSOCIAÇÃO ECOLÓGICA
+Endereço: RUA BERLIN, 240, Dois Irmãos - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+112 - GRUPO AMBIENTALISTA YBYTY CARAY
+Endereço: RUA HONÓRIO PORTO, 259, Candelária - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+113 - GRUPO DE APOIO AO TAIM - GAT
+Endereço: RUA PE. FELÍCIO, 128 OU CAIXA POSTAL 400, Pelotas - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+114 - GRUPO DE ESTUDOS DE MAMÍFEROS AQUÁTICOS DO RIO GRANDE DO SUL
+Endereço: RUA FELIPE NERY, 382 CONJ.203, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+115 - GRUPO ECOLÓGICO AMIGOS DA NATUREZA
+Endereço: RUA FIRMINO DE PAULA, 646, Ibirubá - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+116 - GRUPO ECOLÓGICO ARAUCÁRIA - GEA
+Endereço: CAIXA POSTAL 150 - RUA MAXIMILIANO DE ALMEIDA, 1113, Lagoa Vermelha - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+117 - GRUPO ECOLÓGICO CONSCIÊNCIA VERDE
+Endereço: AV. RAMIRO BARCELOS, 1719, São Jerônimo - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+118 - GRUPO ECOLÓGICO CURUPIRA
+Endereço: RUA HENRIQUE TOETGER, 845, Ibirubá - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+119 - GRUPO ECOLÓGICO KAA-ETÉ
+Endereço: PRAÇA PIRATINI, 76 SALA 131, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+120 - GRUPO ECOLÓGICO PEDRO OSÓRIO
+Endereço: CAIXA POSTAL 40, Pedro Osório - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+121 - GRUPO ECOLÓGICO QUEREMOS GENTE
+Endereço: AV. TIRADENTES, 1067, Alvorada - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+122 - GRUPO ECOLÓGICO ROLANTE
+Endereço: CAIXA POSTAL 14, Rolante - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+123 - GRUPO ECOLÓGICO SENTINELA DOS PAMPAS - GESP
+Endereço: RUA MORON, 2032, Passo Fundo - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+124 - GRUPO ECOLÓGICO TUCO-TUCO
+Endereço: AV. ITÁLIA - KM 07 - FURG, Rio Grande - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+125 - GRUPO ECOLÓGICO VIAMÃO
+Endereço: RUA SENADOR SALGADO FILHO, 8850, Viamão - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+126 - GRUPO MANIFESTO ECOLÓGICO
+Endereço: RUA PARANÁ, 122 PARQUE 35, Guaíba - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+127 - GRUPO PRÓ-DESENVOLVIMENTO ECOLÓGICO
+Endereço: AV. GETÚLIO VARGAS, 2266 / 2º, Alvorada - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+128 - INSTITUTO ANTHROPOS
+Endereço: RUA JOAQUIM NABUCO, 26 AP. 401, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+129 - INSTITUTO SEA SHEPHERD BRASIL
+Endereço: CAIXA POSTAL 5010, Porto Alegre - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+130 - MEL - URIHI
+Endereço: RUA ERNESTO DORNELES, 207, Cachoeirinha - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+131 - MOVIMENTO AMBIENTALISTA DA REGIÃO DAS HORTÊNSIAS
+Endereço: RUA PIARATINI, 447/306 - B. PLANALTO, Gramado - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+132 - MOVIMENTO ARAUCÁRIA DE PRES. AMBIENTAL
+Endereço: RUA TORRES GONÇALVES, 407, Erechim - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+133 - MOVIMENTO CHICO MENDES
+Endereço: RUA DONA FRUCTUOSA, 162 COL. NASSUCA, Guaíba - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+134 - MOVIMENTO DE PRESERVAÇÃO DO PATRIMÔNIO HISTÓRICO-CULTURAL DE GUAÍBA
+Endereço: GUAÍBA - RS (endereço não especificado)
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+135 - MOVIMENTO ECOLÓGICO
+Endereço: CAIXA POSTAL 58, Pinheiro Machado - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+136 - MOVIMENTO ECOLÓGICO GRITO DA TERRA
+Endereço: RUA IVOTI, 26, Portão - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
+ 
+137 - MOVIMENTO ECOLÓGICO PINHEIRO MACHADO
+Endereço: RUA NICO DE OLIVEIRA, 1046, Pinheiro Machado - RS
+Atividade Econômica: Atividades de associações de defesa de direitos sociais
+Natureza Jurídica: Associação Privada
