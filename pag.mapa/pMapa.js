@@ -1,11 +1,11 @@
 const imagens = [
-    "./africaEco1.webp",
+    "./africaEco1.jpg",
     "./asiaEco1.jpg",
     "./europaEco1.jpg",
     "./amazonia1.jpg",
-    "./foto1.webp",
-    "./ods1.png",
-    "./paises1.webp"
+    "./foto1.jpg",
+    "./ods1.jpg",
+    "./paises1.jpg"
 ];
 
 let atual = 0;
