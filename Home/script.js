@@ -14,47 +14,72 @@ function copiarEmail() {
         });
 }
 
-// Menu responsivo da navegação
-const nav = document.querySelector("nav");
 
-if (nav && !document.getElementById("menu-toggle")) {
-    const botaoMenu = document.createElement("button");
+// MENU RESPONSIVO DA HOME — SEM ALTERAR O HTML
 
-    botaoMenu.id = "menu-toggle";
-    botaoMenu.className = "menu-toggle";
-    botaoMenu.type = "button";
-    botaoMenu.setAttribute("aria-label", "Abrir menu");
-    botaoMenu.setAttribute("aria-expanded", "false");
-    botaoMenu.innerHTML = `
-        <span></span>
-        <span></span>
-        <span></span>
-    `;
+const navHome = document.querySelector("body > header > nav");
 
-    const lista = nav.querySelector("ul");
+if (navHome) {
+    const logoHome = navHome.querySelector(".logo");
+    const linksHome = navHome.querySelector("ul");
 
-    if (lista) {
-        lista.id = "nav-links";
-        nav.appendChild(botaoMenu);
+    if (logoHome && linksHome) {
+        const telaCelular = window.matchMedia("(max-width: 640px)");
+        let botaoMenu = null;
 
-        botaoMenu.addEventListener("click", () => {
-            const aberto = lista.classList.toggle("menu-aberto");
+        function fecharMenu() {
+            linksHome.classList.remove("menu-aberto");
 
-            botaoMenu.classList.toggle("ativo", aberto);
-            botaoMenu.setAttribute("aria-expanded", aberto);
-            botaoMenu.setAttribute(
-                "aria-label",
-                aberto ? "Fechar menu" : "Abrir menu"
-            );
-        });
-
-        lista.querySelectorAll("a").forEach(link => {
-            link.addEventListener("click", () => {
-                lista.classList.remove("menu-aberto");
-                botaoMenu.classList.remove("ativo");
+            if (botaoMenu) {
+                botaoMenu.textContent = "☰";
                 botaoMenu.setAttribute("aria-expanded", "false");
                 botaoMenu.setAttribute("aria-label", "Abrir menu");
-            });
-        });
+            }
+        }
+
+        function configurarMenu() {
+            if (telaCelular.matches) {
+                if (!botaoMenu) {
+                    botaoMenu = document.createElement("button");
+
+                    botaoMenu.type = "button";
+                    botaoMenu.className = "menu-celular";
+                    botaoMenu.textContent = "☰";
+                    botaoMenu.setAttribute("aria-label", "Abrir menu");
+                    botaoMenu.setAttribute("aria-expanded", "false");
+
+                    logoHome.insertAdjacentElement("afterend", botaoMenu);
+
+                    botaoMenu.addEventListener("click", () => {
+                        const aberto =
+                            linksHome.classList.toggle("menu-aberto");
+
+                        botaoMenu.textContent = aberto ? "✕" : "☰";
+                        botaoMenu.setAttribute(
+                            "aria-expanded",
+                            String(aberto)
+                        );
+                        botaoMenu.setAttribute(
+                            "aria-label",
+                            aberto ? "Fechar menu" : "Abrir menu"
+                        );
+                    });
+
+                    linksHome.querySelectorAll("a").forEach((link) => {
+                        link.addEventListener("click", fecharMenu);
+                    });
+                }
+            } else {
+                fecharMenu();
+
+                if (botaoMenu) {
+                    botaoMenu.remove();
+                    botaoMenu = null;
+                }
+            }
+        }
+
+        configurarMenu();
+        telaCelular.addEventListener("change", configurarMenu);
     }
 }

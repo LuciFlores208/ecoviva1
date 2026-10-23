@@ -44,3 +44,69 @@ function copiarEmail() {
             alert("❌ Não foi possível copiar o e-mail.");
         });
 }
+
+const navMapa = document.querySelector("body > header > nav");
+
+if (navMapa) {
+    const logoMapa = navMapa.querySelector(".logo");
+    const linksMapa = navMapa.querySelector("ul");
+
+    if (logoMapa && linksMapa) {
+        const telaCelular = window.matchMedia("(max-width: 640px)");
+        let botaoMenu = null;
+
+        function fecharMenuMapa() {
+            linksMapa.classList.remove("menu-aberto");
+
+            if (botaoMenu) {
+                botaoMenu.textContent = "☰";
+                botaoMenu.setAttribute("aria-expanded", "false");
+                botaoMenu.setAttribute("aria-label", "Abrir menu");
+            }
+        }
+
+        function configurarMenuMapa() {
+            if (telaCelular.matches) {
+                if (!botaoMenu) {
+                    botaoMenu = document.createElement("button");
+                    botaoMenu.type = "button";
+                    botaoMenu.className = "menu-celular";
+                    botaoMenu.textContent = "☰";
+                    botaoMenu.setAttribute("aria-label", "Abrir menu");
+                    botaoMenu.setAttribute("aria-expanded", "false");
+
+                    logoMapa.insertAdjacentElement("afterend", botaoMenu);
+
+                    botaoMenu.addEventListener("click", () => {
+                        const aberto =
+                            linksMapa.classList.toggle("menu-aberto");
+
+                        botaoMenu.textContent = aberto ? "✕" : "☰";
+                        botaoMenu.setAttribute(
+                            "aria-expanded",
+                            String(aberto)
+                        );
+                        botaoMenu.setAttribute(
+                            "aria-label",
+                            aberto ? "Fechar menu" : "Abrir menu"
+                        );
+                    });
+
+                    linksMapa.querySelectorAll("a").forEach(link => {
+                        link.addEventListener("click", fecharMenuMapa);
+                    });
+                }
+            } else {
+                fecharMenuMapa();
+
+                if (botaoMenu) {
+                    botaoMenu.remove();
+                    botaoMenu = null;
+                }
+            }
+        }
+
+        configurarMenuMapa();
+        telaCelular.addEventListener("change", configurarMenuMapa);
+    }
+}

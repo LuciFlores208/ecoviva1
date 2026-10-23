@@ -417,3 +417,207 @@ a {
     .card h1 { font-size: 1.25rem; }
     .grid-dicas, .grid-resultado { grid-template-columns: 1fr; }
 }
+
+/* RESPONSIVIDADE DA PAGINA MAPA — SOMENTE CELULAR */
+@media (max-width: 640px) {
+
+    /* NAVBAR FIXA E COM MENU EXPANSIVEL */
+    .menu-celular {
+    display: none;
+} 
+
+    body > header {
+        position: fixed;
+      
+    }
+
+    body > header > nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 38px;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 100;
+        padding: 2px 12px;
+        gap: 2px;
+        background: white;
+        border-bottom: none;
+        flex-direction:row;
+
+    }
+
+    body > header > nav .logo {
+        width: 65px;
+        flex-shrink: 0;
+        height: auto;
+        margin: 0;
+    }
+
+    body > header > nav .logo img {
+        width: 65px;
+        height: auto;
+        display: block;
+    }
+
+    body > header > nav .menu-celular {
+        display: block;
+        background: transparent;
+        border: none;
+        color: #155912;
+        font-size: 21px;
+        line-height: 1;
+        padding: 2px 5px;
+        cursor: pointer;
+        margin-left: auto;
+        flex-shrink: 0;
+    }
+
+    body > header > nav ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        padding: 8px 20px 12px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        list-style: none;
+        background: #155912;
+        border-bottom: none;
+        z-index: 99;
+    }
+
+    body > header > nav ul.menu-aberto {
+        display: flex;
+    }
+
+    body > header > nav ul li {
+        width: 100%;
+    }
+
+    body > header > nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 12px 8px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    body > header > nav ul li a.ativo {
+        color: #09c256;
+    }
+
+    body > header > nav ul li a:hover {
+        color: #9be28f;
+        background: rgba(255, 255, 255, 0.06);
+    }
+
+    /* FOOTER */
+    footer {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        align-items: start;
+        justify-content: center;
+        gap: 20px 10px;
+        padding: 22px 12px;
+        text-align: left;
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+    .membros {
+        grid-column: 1;
+        min-width: 0;
+    }
+
+    .contato {
+        grid-column: 2;
+        align-items: stretch;
+        width: 100%;
+        min-width: 0;
+    }
+
+    footer h3 {
+        font-size: 14px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+
+    .membro {
+        margin: 8px 0;
+    }
+
+    .membro a {
+        justify-content: flex-start;
+        gap: 5px;
+        font-size: 11px;
+        overflow-wrap: anywhere;
+    }
+
+    .github-icon {
+        width: 16px;
+        height: 16px;
+        flex-shrink: 0;
+    }
+
+    .email-box,
+    .site-box {
+        width: 100%;
+        padding: 8px 5px;
+        font-size: 10px;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    .site-box a {
+        font-size: 10px;
+    }
+
+    #botao {
+        width: 100%;
+        max-width: 145px;
+        align-self: center;
+        padding: 8px 5px;
+        font-size: 11px;
+    }
+}
+
+/* CELULARES MUITO ESTREITOS */
+@media (max-width: 360px) {
+    .topo {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .container-fotos {
+        gap: 4px;
+    }
+
+    .container-fotos img {
+        height: 75px;
+    }
+
+    .container-fotos img.ativa {
+        height: 90px !important;
+    }
+
+    footer {
+        padding: 18px 8px;
+        gap: 16px 7px;
+    }
+
+    .membro a {
+        font-size: 10px;
+    }
+}
