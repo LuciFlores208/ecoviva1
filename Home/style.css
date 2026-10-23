@@ -414,3 +414,669 @@ a {
     height: auto;
     display: block;
 }
+
+
+/* =========================
+   RESPONSIVIDADE - ECOVIVA
+   ========================= */
+
+/* Tablets e telas menores */
+@media (max-width: 900px) {
+
+    nav {
+        padding: 15px 4%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .logo img {
+        width: 110px;
+        max-width: 100%;
+    }
+
+    nav ul {
+        gap: 14px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .hero-text h1 {
+        font-size: clamp(32px, 6vw, 52px);
+    }
+
+    .hero-text p {
+        font-size: clamp(18px, 3vw, 26px);
+    }
+
+    .sobre {
+        padding: 35px 5%;
+        gap: 35px;
+    }
+
+    .cards {
+        gap: 30px;
+    }
+
+    .cards article h2 {
+        font-size: 28px;
+    }
+
+    .texto {
+        gap: 35px;
+    }
+
+    .galeria {
+        flex-wrap: wrap;
+        gap: 25px;
+        padding: 0 20px;
+    }
+
+    footer {
+        padding: 30px 5%;
+        gap: 30px;
+    }
+}
+
+
+/* Celulares */
+@media (max-width: 600px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    /* Menu */
+    nav {
+        padding: 12px 16px;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .logo {
+        width: 90px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    nav ul {
+        width: 100%;
+        gap: 12px 18px;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    /* Imagem e texto inicial */
+    .home-hero {
+        height: 65vh;
+        min-height: 430px;
+    }
+
+    .hero-text {
+        width: 92%;
+        top: 55%;
+    }
+
+    .hero-text h1 {
+        font-size: clamp(28px, 8vw, 42px);
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+
+    .hero-text p {
+        font-size: clamp(17px, 4.5vw, 23px);
+        line-height: 1.4;
+    }
+
+    /* Propósito e cartões */
+    .sobre {
+        flex-direction: column;
+        padding: 30px 22px;
+        gap: 30px;
+    }
+
+    .proposito {
+        padding: 45px 22px 25px;
+    }
+
+    .cards {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .cards article h2 {
+        font-size: 25px;
+        margin-bottom: 14px;
+    }
+
+    .cards article p,
+    .texto p,
+    .desafios p {
+        text-align: left;
+        line-height: 1.7;
+    }
+
+    /* Galeria */
+    .galeria {
+        width: 100%;
+        padding: 0 18px;
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .galeria img {
+        width: 110px;
+        height: 110px;
+        border-width: 4px;
+    }
+
+    /* Sustentabilidade */
+    .sustentabilidade {
+        padding: 35px 22px;
+    }
+
+    .sustentabilidade h2,
+    .desafios h2 {
+        font-size: 27px;
+        margin-bottom: 25px;
+    }
+
+    .texto {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    /* Desafios */
+    .desafios {
+        padding: 35px 22px;
+        margin-bottom: 35px;
+    }
+
+    /* Rodapé */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+        gap: 28px;
+    }
+
+    .footer-logo img {
+        width: 160px;
+        max-width: 100%;
+    }
+
+    .membro a {
+        justify-content: center;
+        overflow-wrap: anywhere;
+    }
+
+    .contato {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .email-box,
+    .site-box {
+        width: 100%;
+        max-width: 280px;
+        overflow-wrap: anywhere;
+    }
+
+    #botao {
+        max-width: 100%;
+    }
+
+    .frase {
+        font-size: 22px;
+        padding: 0 12px;
+    }
+
+    .linha {
+        width: min(300px, 80%);
+    }
+}
+
+
+/* ==========================
+   BOTÃO DO MENU
+========================== */
+
+.menu-toggle {
+    display: none;
+    width: 44px;
+    height: 40px;
+    padding: 8px;
+    border: 0;
+    border-radius: 8px;
+    background: transparent;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    border-radius: 5px;
+    background: white;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+/* Animação: três linhas viram um X */
+.menu-toggle.ativo span:first-child {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.menu-toggle.ativo span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.ativo span:last-child {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+/* ==========================
+   MENU NO CELULAR
+========================== */
+
+@media (max-width: 600px) {
+    nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        min-height: 60px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0;
+        background: #078C00;
+        z-index: 100;
+    }
+
+    .menu-toggle {
+        display: flex;
+        margin-left: auto;
+    }
+
+    nav ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        padding: 8px 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    nav ul.menu-aberto {
+        display: flex;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 12px 10px;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.ativo {
+        border-radius: 8px;
+    }
+}
+
+/* ==============================
+   GALERIA: FOTOS MENORES
+============================== */
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 12px;
+}
+
+.galeria img {
+    display: block;
+    width: 95px;
+    height: 95px;
+    flex: 0 1 95px;
+    min-width: 0;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* FOOTER: TUDO LADO A LADO */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 18px 3%;
+}
+
+/* Logo */
+.footer-logo {
+    flex: 0 1 100px;
+    min-width: 0;
+}
+
+.footer-logo img {
+    display: block;
+    width: 90px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Membros */
+.membros {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.membros h3,
+.contato h3 {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.membro {
+    margin-bottom: 5px;
+}
+
+.membro a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    overflow-wrap: anywhere;
+}
+
+.github-icon {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+}
+
+/* Contato */
+.contato {
+    flex: 1 1 0;
+    width: auto;
+    min-width: 0;
+}
+
+.email-box,
+.site-box {
+    width: 100%;
+    max-width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    overflow-wrap: anywhere;
+}
+
+#botao {
+    width: 100%;
+    max-width: 100%;
+    padding: 6px 4px;
+    font-size: 10px;
+    white-space: normal;
+}
+
+/* Celulares: manter os três blocos na mesma linha */
+@media (max-width: 600px) {
+    footer {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        padding: 15px 8px;
+    }
+
+    .footer-logo {
+        flex: 0 0 48px;
+    }
+
+    .footer-logo img {
+        width: 48px;
+    }
+
+    .membros {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+
+    .contato {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+
+    .membros h3,
+    .contato h3 {
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+
+    .membro a {
+        font-size: 9px;
+        gap: 3px;
+    }
+
+    .github-icon {
+        width: 12px;
+        height: 12px;
+    }
+
+    .email-box,
+    .site-box {
+        padding: 4px;
+        font-size: 9px;
+        margin-bottom: 4px;
+    }
+
+    #botao {
+        padding: 5px 3px;
+        font-size: 9px;
+    }
+}
+
+/* NAV MAIS FINA */
+nav {
+    height: 55px;
+    padding: 8px 8%;
+}
+
+/* Logo um pouco menor */
+nav .logo img {
+    width: 125px;
+}
+
+/* Menos espaço entre os links */
+nav ul {
+    gap: 22px;
+}
+
+nav ul li a {
+    font-size: 14px;
+}
+
+/* Ajuste para celular */
+@media (max-width: 600px) {
+    nav {
+        min-height: 48px;
+        padding: 6px 15px;
+    }
+
+    nav .logo img {
+        width: 95px;
+    }
+
+    .menu-toggle {
+        width: 38px;
+        height: 34px;
+        padding: 5px;
+    }
+
+    .menu-toggle span {
+        width: 22px;
+        height: 2px;
+    }
+}
+
+/* ===== NAV RESPONSIVA PARA CELULAR ===== */
+@media (max-width: 600px) {
+
+    nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        min-height: 60px;
+        padding: 0 20px;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0;
+
+        background: #078C00;
+        border-radius: 12px 12px 0 0;
+        z-index: 100;
+    }
+
+    /* Logo alinhada à esquerda */
+        nav .logo {
+            height: 65px;
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+        }
+    
+        nav .logo img {
+            width: 160px;
+            max-width: none;
+            height: auto;
+            max-height: none;
+            object-fit: contain;
+        }
+    }
+
+    /* Botão hambúrguer alinhado à direita */
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-shrink: 0;
+
+        width: 42px;
+        height: 42px;
+        padding: 6px;
+        margin: 0;
+
+        border: none;
+        background: transparent;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    .menu-toggle span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        border-radius: 3px;
+        background: #fff;
+    }
+
+    /* Menu fechado */
+    nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+
+        width: 100%;
+        margin: 0;
+        padding: 8px 0 12px;
+        gap: 0;
+        list-style: none;
+        box-sizing: border-box;
+
+        background: #078C00;
+        border-radius: 0 0 12px 12px;
+    }
+
+    /* Menu aberto: links descem dentro do painel verde */
+    nav ul.menu-aberto {
+        display: flex;
+    }
+
+    nav ul li {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 13px 10px;
+        box-sizing: border-box;
+
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.ativo {
+        background: rgba(255, 255, 255, 0.15);
+    }
