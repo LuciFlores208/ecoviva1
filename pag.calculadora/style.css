@@ -468,13 +468,18 @@ a {
         display: block;
         background: transparent;
         border: none;
-        color: #155912;
+        color: #078C00;
         font-size: 21px;
         line-height: 1;
         padding: 2px 5px;
         cursor: pointer;
         margin-left: auto;
         flex-shrink: 0;
+        position: static;
+        width: auto;
+        height: auto;
+        margin: 0 0 0 auto;
+
     }
 
     body > header > nav ul {
@@ -489,7 +494,7 @@ a {
         align-items: stretch;
         gap: 0;
         list-style: none;
-        background: #155912;
+        background: white;
         border-bottom: none;
         z-index: 99;
     }
@@ -506,7 +511,7 @@ a {
         display: block;
         width: 100%;
         padding: 12px 8px;
-        color: white;
+        color: black;
         font-family: 'Poppins', sans-serif;
         font-size: 14px;
         text-decoration: none;

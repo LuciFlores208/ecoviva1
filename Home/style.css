@@ -548,46 +548,45 @@ a {
         margin-bottom: 18px;
     }
 
-    /* FOOTER: LOGO EM CIMA, DUAS COLUNAS ABAIXO */
+    /* FOOTER */
     footer {
         display: grid;
         grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
         align-items: start;
-        gap: 18px 12px;
-        padding: 18px 15px;
+        justify-content: center;
+        gap: 20px 10px;
+        padding: 22px 12px;
+        text-align: left;
     }
 
     .footer-logo {
-        grid-column: 1 / -1;
         display: none;
-        justify-content: center;
-    }
-
-    .footer-logo img {
-        width: 145px;
-        max-width: 100%;
     }
 
     .membros {
         grid-column: 1;
         min-width: 0;
-        margin: 6px 0;
     }
 
     .contato {
         grid-column: 2;
-        min-width: 0;
-        width: 100%;
         align-items: stretch;
+        width: 100%;
+        min-width: 0;
     }
 
     footer h3 {
         font-size: 14px;
-        margin-bottom: 8px;
-        margin-top: 0;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+
+    .membro {
+        margin: 8px 0;
     }
 
     .membro a {
+        justify-content: flex-start;
         gap: 5px;
         font-size: 11px;
         overflow-wrap: anywhere;
@@ -606,7 +605,6 @@ a {
         font-size: 10px;
         overflow-wrap: anywhere;
         word-break: break-word;
-        margin-top: 6px;
     }
 
     .site-box a {
@@ -616,11 +614,11 @@ a {
     #botao {
         width: 100%;
         max-width: 145px;
+        align-self: center;
         padding: 8px 5px;
         font-size: 11px;
     }
 }
-
 @media (max-width: 360px) {
     /* FOOTER */
     footer {

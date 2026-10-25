@@ -747,3 +747,627 @@ footer h3 {
         width: 100%;
     }
 }
+
+
+/* =====================================
+   AJUSTES DE ORGANIZAÇÃO — ECOPIXEL
+   Mantém a identidade visual dos jogos
+===================================== */
+
+/* Corrige variáveis usadas no seletor de status */
+:root {
+    --text: var(--text-primary);
+    --border-color: var(--green-border);
+    --accent: var(--green-bright);
+}
+
+/* =====================================
+   NAVBAR
+===================================== */
+
+.navbar {
+    width: 100%;
+    padding: 0 5%;
+    background: #0d150d;
+    border-bottom: 2px solid var(--green-dim);
+    min-height: 76px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.nav-inner {
+    width: 100%;
+    max-width: 1200px;
+    min-height: 76px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.nav-inner > a {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.nav-logo {
+    width: 100px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-links a {
+    display: inline-block;
+    padding: 10px 4px;
+    line-height: 1.8;
+    white-space: nowrap;
+}
+
+.nav-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 28px;
+    color: var(--text-primary);
+    background: transparent;
+    border: 1px solid var(--green-border);
+    padding: 5px 12px;
+    line-height: 1.2;
+}
+/* =====================================
+   CONTEÚDO PRINCIPAL
+===================================== */
+
+.hero {
+    padding: 64px 24px 56px;
+}
+
+.hero-inner {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: clamp(28px, 5vw, 64px);
+}
+
+.hero-text {
+    min-width: 0;
+}
+
+.hero-desc {
+    max-width: 420px;
+}
+
+.hero-image {
+    flex-shrink: 1;
+    width: 300px;
+    max-width: 42%;
+    height: auto;
+    aspect-ratio: 3 / 4;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-cta {
+    align-items: center;
+}
+
+.pixel-divider {
+    margin: 0;
+}
+
+/* =====================================
+   BIBLIOTECA DE JOGOS
+===================================== */
+
+.biblioteca {
+    padding: 56px 24px 72px;
+}
+
+.section-inner {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-title {
+    line-height: 1.8;
+    overflow-wrap: anywhere;
+}
+
+.filters {
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 36px;
+}
+
+.filter-btn {
+    line-height: 1.8;
+}
+
+.games-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 24px;
+}
+
+.game-card {
+    min-width: 0;
+    height: 100%;
+}
+
+.card-img {
+    aspect-ratio: 16 / 9;
+}
+
+.card-body {
+    padding: 18px;
+}
+
+.card-name {
+    overflow-wrap: anywhere;
+}
+
+.card-desc {
+    overflow-wrap: anywhere;
+}
+
+.card-footer {
+    flex-wrap: wrap;
+    padding: 12px 14px;
+}
+
+.game-status {
+    min-width: 0;
+    flex-wrap: wrap;
+}
+
+.status-select {
+    max-width: 100%;
+}
+
+
+
+/* =====================================
+   FOOTER — PADRÃO ECOVIVA
+===================================== */
+
+footer {
+    width: 100%;
+    padding: 32px max(5%, calc((100% - 1200px) / 2));
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr) minmax(180px, 1fr) minmax(250px, 1.2fr);
+    align-items: center;
+    justify-content: initial;
+    gap: 36px;
+    background: #0d150d;
+    border-top: 2px solid var(--green-dim);
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+}
+
+.footer-logo img {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+footer h3 {
+    font-size: 12px;
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+
+.membros {
+    min-width: 0;
+}
+
+.membro {
+    margin: 10px 0;
+}
+
+.membro a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    overflow-wrap: anywhere;
+}
+
+.github-icon {
+    flex-shrink: 0;
+}
+
+.contato {
+    width: 100%;
+    min-width: 0;
+    align-items: stretch;
+}
+
+.contato h3 {
+    text-align: center;
+}
+
+.email-box,
+.site-box {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto 10px;
+    overflow-wrap: anywhere;
+    font-size: 16px;
+}
+
+#botao {
+    align-self: center;
+    max-width: 100%;
+    min-height: 36px;
+    line-height: 1.7;
+}
+
+/* =====================================
+   TABLETS E CELULARES
+===================================== */
+
+@media (max-width: 640px) {
+    .navbar {
+        padding: 0 5%;
+    }
+
+    .nav-inner {
+        position: relative;
+        height: 58px;
+        min-height: 70px;
+        padding: 0;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .nav-logo {
+        width: 90px;
+        height: 58px;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-left: auto;
+        flex-shrink: 0;
+        font-size: 25px;
+        padding: 8px;
+        z-index: 101;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding: 8px 0;
+        background: var(--bg-dark);
+        border: 2px solid var(--green-border);
+        box-shadow: 0 6px 12px rgb(0 0 0 / 30%);
+        z-index: 1001;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .nav-links li,
+    .nav-links a {
+        width: 100%;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 14px 20px;
+        font-size: 9px;
+        white-space: normal;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.ativo {
+        background: var(--bg-card);
+    }
+
+    .hero {
+        padding: 42px 20px;
+    }
+
+    .hero-inner {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .hero-text {
+        width: 100%;
+        flex: initial;
+    }
+
+    .hero-title {
+        font-size: clamp(15px, 4vw, 20px);
+    }
+
+    .hero-desc {
+        max-width: 100%;
+        font-size: 18px;
+    }
+
+    .hero-cta {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .hero-cta a,
+    .hero-cta button {
+        max-width: 100%;
+    }
+
+    .hero-image {
+        width: min(300px, 100%);
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 3 / 4;
+    }
+
+    .biblioteca {
+        padding: 40px 20px 52px;
+    }
+
+    .section-title {
+        font-size: 11px;
+        margin-bottom: 22px;
+    }
+
+    .filters {
+        gap: 10px;
+        margin-bottom: 28px;
+    }
+
+    .filter-btn {
+        max-width: 100%;
+        padding: 9px 10px;
+        line-height: 1.8;
+    }
+
+    .games-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 20px;
+    }
+
+    .card-body {
+        padding: 16px;
+    }
+
+    .card-footer {
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .game-status {
+        gap: 8px;
+    }
+
+    .status-label,
+    .status-select {
+        font-size: 7px;
+    }
+
+    footer {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        align-items: start;
+        gap: 26px 16px;
+        padding: 28px 20px;
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+    .membros {
+        grid-column: 1;
+        text-align: left;
+        min-width: 0;
+    }
+
+    .membro a {
+        justify-content: flex-start;
+        gap: 6px;
+        font-size: 15px;
+    }
+
+    footer h3 {
+        font-size: 9px;
+        margin-bottom: 14px;
+        overflow-wrap: anywhere;
+    }
+
+    .contato {
+        grid-column: 2;
+        min-width: 0;
+    }
+
+    .contato h3 {
+        text-align: center;
+    }
+
+    .email-box,
+    .site-box {
+        width: 100%;
+        padding: 8px 5px;
+        font-size: 12px;
+        border-radius: 12px;
+        overflow-wrap: anywhere;
+    }
+
+    #botao {
+        width: 100%;
+        padding: 8px 5px;
+        font-size: 7px;
+        border-radius: 12px;
+    }
+}
+
+/* CELULARES MUITO ESTREITOS */
+
+@media (max-width: 360px) {
+    .hero-cta {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-cta .btn-primary,
+    .hero-cta .btn-outline {
+        text-align: center;
+    }
+
+    footer {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .membros,
+    .contato {
+        grid-column: 1;
+    }
+
+    .membros {
+        text-align: center;
+    }
+
+    .membro a {
+        justify-content: center;
+    }
+}
+
+
+/* =====================================
+   AJUSTES FINAIS — JOGOS
+===================================== */
+
+/* Centralizar os botões Jogar agora e Ver quiz */
+.hero-cta {
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* Se os botões estiverem dentro de um texto alinhado à esquerda */
+.hero-text {
+    text-align: center;
+}
+
+.hero-desc {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-cta a,
+.hero-cta button {
+    text-align: center;
+}
+
+/* Remover a imagem do hero */
+.hero-image {
+    display: none !important;
+}
+
+/* Dois jogos por linha, com cards menores */
+.games-grid,
+#games-grid {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    align-items: stretch;
+}
+
+.game-card {
+    min-width: 0;
+    max-width: 100%;
+}
+
+.card-img {
+    aspect-ratio: 16 / 9;
+}
+
+.card-body {
+    padding: 12px;
+}
+
+.card-name {
+    font-size: 7px;
+}
+
+.card-desc {
+    font-size: 15px;
+}
+
+/* Menu mobile */
+@media (max-width: 800px) {
+    .hero-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-cta {
+        justify-content: center !important;
+    }
+
+    .hero-image {
+        display: none !important;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+}
+
+/* Uma coluna apenas em celulares estreitos */
+@media (max-width: 480px) {
+    .games-grid,
+    #games-grid {
+        grid-template-columns: minmax(0, 1fr);
+        max-width: 380px;
+        gap: 16px;
+    }
+}

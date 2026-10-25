@@ -588,3 +588,309 @@ a {
         width: 100%;
     }
 }
+
+
+/* =========================
+   RESPONSIVIDADE DA CAPY
+   SOMENTE CELULARES
+========================= */
+
+.menu-celular {
+    display: none;
+}
+
+@media (max-width: 640px) {
+
+    /* NAVEGAÇÃO: MESMO PADRÃO DO MAPA */
+     body > header {
+        position: fixed;
+      
+    }
+
+    body > header > nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 38px;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 100;
+        padding: 2px 12px;
+        gap: 2px;
+        background: #155912;
+        border-bottom: none;
+        flex-direction:row;
+
+    }
+
+    body > header > nav .logo {
+        width: 65px;
+        flex-shrink: 0;
+        height: auto;
+        margin: 0;
+    }
+
+    body > header > nav .logo img {
+        width: 65px;
+        height: auto;
+        display: block;
+    }
+
+    body > header > nav .menu-celular {
+        display: block;
+        background: transparent;
+        border: none;
+        color: white;
+        font-size: 21px;
+        line-height: 1;
+        padding: 2px 5px;
+        cursor: pointer;
+        margin-left: auto;
+        flex-shrink: 0;
+    }
+
+    body > header > nav ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        padding: 8px 20px 12px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        list-style: none;
+        background: #155912;
+        border-bottom: none;
+        z-index: 99;
+    }
+
+    body > header > nav ul.menu-aberto {
+        display: flex;
+    }
+
+    body > header > nav ul li {
+        width: 100%;
+    }
+
+    body > header > nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 12px 8px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    body > header > nav ul li a.ativo {
+        color: #09c256;
+    }
+
+    body > header > nav ul li a:hover {
+        color: #9be28f;
+        background: rgba(255, 255, 255, 0.06);
+    }
+
+    /* APRESENTAÇÃO DA CAPY */
+    main > aside {
+        width: 100%;
+        flex-shrink: 1;
+        padding: 22px 22px 25px;
+        text-align: center;
+    }
+
+    .capyImg {
+        margin-bottom: 18px;
+    }
+
+    .capyImg img {
+        width: 145px;
+        max-width: 65%;
+        height: auto;
+    }
+
+    main > aside p {
+        max-width: 450px;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 1.6;
+        overflow-wrap: break-word;
+    }
+
+    /* ÁREA DE CONVERSA */
+    main > section {
+        width: 100%;
+        min-width: 0;
+        padding: 35px 20px 40px;
+        align-items: stretch;
+    }
+
+    main > section h1 {
+        width: 100%;
+        max-width: 100%;
+        font-size: 23px;
+        line-height: 1.45;
+        text-align: center;
+        overflow-wrap: break-word;
+    }
+
+    /* CAMPO PARA DIGITAR A PERGUNTA */
+    .chat {
+        width: 100%;
+        max-width: 100%;
+        height: 125px;
+        margin-top: 28px;
+        border-radius: 18px;
+    }
+
+    .chat textarea {
+        width: 100%;
+        height: 100%;
+        padding: 18px 65px 18px 16px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .chat button {
+        width: 42px;
+        height: 42px;
+        right: 12px;
+        bottom: 12px;
+        font-size: 15px;
+    }
+
+    /* ÁREA DA RESPOSTA */
+    .typing {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        margin-top: 28px;
+        padding: 15px;
+        font-size: 14px;
+        line-height: 1.65;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    /* IMAGENS E CONTEÚDO DA RESPOSTA */
+    .typing img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .typing pre,
+    .typing code {
+        max-width: 100%;
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
+    }
+
+    /* RODAPÉ */
+    footer {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        align-items: start;
+        justify-content: center;
+        gap: 20px 10px;
+        padding: 22px 12px;
+        text-align: left;
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+    footer .membros {
+        grid-column: 1;
+        min-width: 0;
+    }
+
+    footer .contato {
+        grid-column: 2;
+        width: 100%;
+        min-width: 0;
+        align-items: stretch;
+    }
+
+    footer h3 {
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    footer .membro {
+        margin: 8px 0;
+    }
+
+    footer .membro a {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+        font-size: 11px;
+        overflow-wrap: anywhere;
+    }
+
+    footer .github-icon {
+        width: 16px;
+        height: 16px;
+        flex-shrink: 0;
+    }
+
+    footer .email-box,
+    footer .site-box {
+        width: 100%;
+        min-width: 0;
+        padding: 8px 5px;
+        font-size: 10px;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    footer .site-box a {
+        font-size: 10px;
+    }
+
+    footer #botao {
+        width: 100%;
+        max-width: 145px;
+        align-self: center;
+        padding: 8px 5px;
+        font-size: 11px;
+    }
+}
+
+/* CELULARES MUITO ESTREITOS */
+@media (max-width: 360px) {
+
+    main > aside {
+        padding: 20px 15px;
+    }
+
+    main > aside p {
+        font-size: 15px;
+    }
+
+    main > section {
+        padding: 30px 14px;
+    }
+
+    main > section h1 {
+        font-size: 21px;
+    }
+
+    footer {
+        gap: 16px 7px;
+        padding: 18px 8px;
+    }
+
+    footer .membro a {
+        font-size: 10px;
+    }
+}

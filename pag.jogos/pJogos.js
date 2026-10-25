@@ -191,26 +191,48 @@ function initFilters() {
 }
 
 function initNavToggle() {
+    const toggle = document.querySelector(".nav-toggle");
+    const links = document.querySelector(".nav-links");
 
-  const toggle =
-    document.querySelector(".nav-toggle");
+    if (!toggle || !links) return;
 
-  const links =
-    document.querySelector(".nav-links");
+    function fecharMenu() {
+        links.classList.remove("open");
+        toggle.setAttribute("aria-expanded", "false");
+        toggle.setAttribute("aria-label", "Abrir menu");
+    }
 
-  if (!toggle || !links) return;
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.setAttribute("aria-label", "Abrir menu");
 
-  toggle.addEventListener("click", () => {
-    links.classList.toggle("open");
-  });
+    toggle.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
 
-  links.querySelectorAll("a").forEach(a => {
+        const aberto = links.classList.toggle("open");
 
-    a.addEventListener("click", () => {
-      links.classList.remove("open");
+        toggle.setAttribute("aria-expanded", String(aberto));
+        toggle.setAttribute(
+            "aria-label",
+            aberto ? "Fechar menu" : "Abrir menu"
+        );
     });
 
-  });
+    links.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", fecharMenu);
+    });
+
+    document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+            fecharMenu();
+        }
+    });
+
+    window.addEventListener("resize", () => {
+        if (window.innerWidth > 800) {
+            fecharMenu();
+        }
+    });
 }
 
 

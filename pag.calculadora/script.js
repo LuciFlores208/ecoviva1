@@ -45,18 +45,23 @@ function copiarEmail() {
         });
 }
 
-const navMapa = document.querySelector("body > header > nav");
+/* =========================
+   MENU RESPONSIVO
+   CALCULADORA
+========================= */
 
-if (navMapa) {
-    const logoMapa = navMapa.querySelector(".logo");
-    const linksMapa = navMapa.querySelector("ul");
+const navCalculadora = document.querySelector("body > header > nav");
 
-    if (logoMapa && linksMapa) {
+if (navCalculadora) {
+    const logoCalculadora = navCalculadora.querySelector(".logo");
+    const linksCalculadora = navCalculadora.querySelector("ul");
+
+    if (logoCalculadora && linksCalculadora) {
         const telaCelular = window.matchMedia("(max-width: 640px)");
         let botaoMenu = null;
 
-        function fecharMenuMapa() {
-            linksMapa.classList.remove("menu-aberto");
+        function fecharMenuCalculadora() {
+            linksCalculadora.classList.remove("menu-aberto");
 
             if (botaoMenu) {
                 botaoMenu.textContent = "☰";
@@ -65,7 +70,7 @@ if (navMapa) {
             }
         }
 
-        function configurarMenuMapa() {
+        function configurarMenuCalculadora() {
             if (telaCelular.matches) {
                 if (!botaoMenu) {
                     botaoMenu = document.createElement("button");
@@ -75,11 +80,15 @@ if (navMapa) {
                     botaoMenu.setAttribute("aria-label", "Abrir menu");
                     botaoMenu.setAttribute("aria-expanded", "false");
 
-                    logoMapa.insertAdjacentElement("afterend", botaoMenu);
+                    logoCalculadora.insertAdjacentElement(
+                        "afterend",
+                        botaoMenu
+                    );
 
                     botaoMenu.addEventListener("click", () => {
-                        const aberto =
-                            linksMapa.classList.toggle("menu-aberto");
+                        const aberto = linksCalculadora.classList.toggle(
+                            "menu-aberto"
+                        );
 
                         botaoMenu.textContent = aberto ? "✕" : "☰";
                         botaoMenu.setAttribute(
@@ -92,12 +101,15 @@ if (navMapa) {
                         );
                     });
 
-                    linksMapa.querySelectorAll("a").forEach(link => {
-                        link.addEventListener("click", fecharMenuMapa);
+                    linksCalculadora.querySelectorAll("a").forEach(link => {
+                        link.addEventListener(
+                            "click",
+                            fecharMenuCalculadora
+                        );
                     });
                 }
             } else {
-                fecharMenuMapa();
+                fecharMenuCalculadora();
 
                 if (botaoMenu) {
                     botaoMenu.remove();
@@ -106,7 +118,11 @@ if (navMapa) {
             }
         }
 
-        configurarMenuMapa();
-        telaCelular.addEventListener("change", configurarMenuMapa);
+        configurarMenuCalculadora();
+
+        telaCelular.addEventListener(
+            "change",
+            configurarMenuCalculadora
+        );
     }
 }
