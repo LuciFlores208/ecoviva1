@@ -626,3 +626,9 @@ a {
         font-size: 10px;
     }
 }
+/* Corrige o espaço abaixo da nav somente no celular */
+@media (max-width: 700px) {
+    .card {
+        margin: 85px 15px 20px;
+    }
+}
