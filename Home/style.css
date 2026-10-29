@@ -818,3 +818,16 @@ a {
         background: rgba(255, 255, 255, 0.06);
     }
 }
+/* Corrige a posição da nav somente no celular */
+@media (max-width: 640px) {
+    body > header > nav {
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    body > header {
+        padding-top: 60px;
+    }
+}
